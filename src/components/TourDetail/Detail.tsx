@@ -184,14 +184,14 @@ function PriceCard({
                 <ul className="mt-3 space-y-4">
                     <li className="flex items-start gap-3">
                         <Clock className="mt-0.5 h-5 w-5 text-neutral-700" />
-                        <div>
+                        <div className="w-10/12">
                             <div className="text-sm font-semibold text-neutral-900">Duration</div>
                             <div className="text-sm text-neutral-700">{duration} Days</div>
                         </div>
                     </li>
                     <li className="flex items-start gap-3">
                         <MapPin className="mt-0.5 h-5 w-5 text-neutral-700" />
-                        <div>
+                        <div className="w-10/12">
                             <div className="text-sm font-semibold text-neutral-900">Destinations</div>
                             <div className="text-sm text-neutral-700">{destinations.join(", ")}</div>
                         </div>
@@ -290,23 +290,6 @@ function AccordionGroup({
         <div className="mb-10 rounded-3xl bg-white p-4 ring-1 ring-neutral-200 shadow-sm md:p-6">
             <div className="mb-4 flex items-center justify-between">
                 <h3 className="text-2xl font-extrabold text-pink-600">{title}</h3>
-                {openIdx !== null ? (
-                    <button
-                        onClick={() => setOpenIdx(null)}
-                        className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-neutral-200/70 text-neutral-700"
-                        title="Collapse all"
-                    >
-                        <Minus className="h-4 w-4" />
-                    </button>
-                ) : (
-                    <button
-                        onClick={() => setOpenIdx(0)}
-                        className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-neutral-200/70 text-neutral-700"
-                        title="Expand first day"
-                    >
-                        <Plus className="h-4 w-4" />
-                    </button>
-                )}
             </div>
 
             <div className="space-y-4">
