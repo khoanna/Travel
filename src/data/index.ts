@@ -1,6 +1,6 @@
 export interface TourDetail {
     id: number;
-    img: string;
+    img: string[];
     title: string;
     destination: string[];
     duration: number;
@@ -18,7 +18,7 @@ export interface TourDetail {
 export const tourList: TourDetail[] = [
     {
         id: 1,
-        img: "/Tour/1.webp",
+        img: ["/Tour/1.0.webp", "/Tour/1.1.jpg", "/Tour/1.2.jpg", "/Tour/1.3.jpg", "/Tour/1.4.jpg"],
         title: "7 days Incredible Journey to Vietnam: Hanoi, Danang and Saigon",
         destination: ["Ha Noi", "Da Nang", "Sai Gon"],
         duration: 7,
@@ -94,7 +94,7 @@ export const tourList: TourDetail[] = [
     },
     {
         id: 2,
-        img: "/Tour/2.webp",
+        img: ["/Tour/2.0.webp", "/Tour/2.1.jpg", "/Tour/2.2.jpg", "/Tour/2.3.jpg", "/Tour/2.4.jpg"],
         title: "Phu Quoc Highlights: Beaches, Safari & Island Fun",
         destination: ["Phu Quoc"],
         duration: 4,
@@ -160,7 +160,7 @@ export const tourList: TourDetail[] = [
     },
     {
         id: 3,
-        img: "/Tour/3.webp",
+        img: ["/Tour/3.webp"],
         title: "Around Highlights Vietnam In 7 Days: Saigon, Da Nang, Hanoi & Ha Long Bay",
         type: ["Classic Tour", "Family Holiday", "For senior citizens", "Honeymoon"],
         destination: ["Sai Gon", "Da Nang", "Ha Noi", "Ha Long"],
@@ -243,7 +243,7 @@ export const tourList: TourDetail[] = [
     },
     {
         id: 4,
-        img: "/Tour/4.png",
+        img: ["/Tour/4.png"],
         title: "Flavors & Heritage of Vietnam in 15 Days",
         type: ["Beach Holiday", "Classic Tour", "For senior citizens", "Honeymoon"],
         destination: ["Ha Noi", "Ninh Binh" , "Halong Bay", "Hue", "Hoi An" , "Ho Chi Minh City" , "Mekong Delta"],
@@ -412,7 +412,7 @@ After your meal, return by boat to Chet Say Pier. Your guide and driver will be 
     },
     {
         id: 5,
-        img: "/Tour/5.jpg",
+        img: ["/Tour/5.jpg"],
         title: "Soul of Vietnam: From Hanoi to Ho Chi Minh City",
         type: ["Classic Tour", "For senior citizens"],
         price: 1584,
@@ -567,7 +567,7 @@ Overnight in Hanoi.`
     },
     {
         id: 6,
-        img: "/Tour/6.jpg",
+        img: ["/Tour/6.jpg"],
         title: "The Vietnamese Story from Hanoi to Danang",
         destination: ["Ha Noi" , "Da Nang"],
         duration: 9,

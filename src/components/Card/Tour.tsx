@@ -9,10 +9,10 @@ export default function TourCard({ tour }: { tour: TourDetail }) {
       {/* Image */}
       <div className="relative">
         <Image
-          src={tour.img}
+          src={tour.img[0]}
           alt={tour.title}
-          width={1200}
-          height={800}
+          width={900}
+          height={700}
           className="h-64 w-full object-cover"
           priority={false}
         />
