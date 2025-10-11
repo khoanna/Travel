@@ -4,12 +4,6 @@ import Link from "next/link";
 import { JSX, useEffect, useRef, useState } from "react";
 import { ChevronDown, Menu, X, SlidersHorizontal } from "lucide-react";
 
-/**
- * Navbar hoàn chỉnh:
- * - Desktop: hover để mở mega panel (căn giữa viewport). Có hover-bridge + delay chống nháy.
- * - Mobile: drawer full-screen từ trái, có accordion.
- * - Animation mượt, code an toàn, không hack DOM.
- */
 
 type MenuKey = "Tours" | "Travel Guide" | null;
 
@@ -57,7 +51,7 @@ export default function Navbar() {
 
   const desktopItems: Array<{ title: Exclude<MenuKey, null>; panel?: JSX.Element }> = [
     { title: "Tours", panel: <ToursPanel /> },
-    { title: "Travel Guide", panel: <GuidePanel /> },
+    // { title: "Travel Guide", panel: <GuidePanel /> },
     ];
 
   return (
@@ -65,7 +59,7 @@ export default function Navbar() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 md:px-10">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold text-pink-600">
-          Seniworld
+          Velogo
         </Link>
 
         {/* Desktop Nav */}
@@ -146,7 +140,6 @@ export default function Navbar() {
   );
 }
 
-/* ===================== Mega Panel (Desktop) ===================== */
 function MegaPanel({
   open,
   onEnter,
@@ -177,15 +170,19 @@ function MegaPanel({
   );
 }
 
-/* ===================== Panels content ===================== */
 function ToursPanel() {
   return (
     <div className="grid grid-cols-3 gap-x-10 gap-y-4">
-      <Column title="Tour Packages" items={["Vietnam Tour Packages"]} />
-      <Column
+      <Column title="Tour Packages" items={[
+        {
+          href: "/tour",
+          title: "Vietnam Tour Packages",
+        }
+      ]} />
+      {/* <Column
         title="Short Trips"
         items={[
-          "Hanoi",
+          "Ha Noi",
           "Ho Chi Minh",
           "Mekong Delta",
           "Da Nang",
@@ -202,53 +199,40 @@ function ToursPanel() {
         ]}
         twoCols
       />
-      <Column title="Cruises" items={["Halong Bay Cruises", "Mekong River Cruises"]} />
+      <Column title="Cruises" items={["Halong Bay Cruises", "Mekong River Cruises"]} /> */}
     </div>
   );
 }
 
-function WaysPanel() {
-  return (
-    <div className="grid grid-cols-3 gap-x-10 gap-y-4">
-      <Column
-        title="Travel Styles"
-        items={["Luxury Travel", "Adventure Travel", "Family Trips", "Cultural Experiences"]}
-      />
-      <Column title="Destinations" items={["Vietnam", "Cambodia", "Laos", "Indochina"]} />
-      <Column title="Special Themes" items={["Honeymoon", "Photography", "Wellness", "Food Tours"]} />
-    </div>
-  );
-}
-
-function GuidePanel() {
-  const cols = [
-    {
-      title: "Essential Guide",
-      items: [
-        "Language",
-        "SIM cards & internet",
-        "Health & Safety",
-        "Money & Budget",
-        "Visa guide",
-        "Best time to visit",
-        "Month by month",
-        "Scam",
-      ],
-    },
-    {
-      title: "Getting around",
-      items: ["Transportation", "Popular routes", "Must see, visit & experience", "Stay"],
-    },
-    { title: "Culture & Cuisine", items: ["People", "Food", "Shopping", "Festivals", "Insights"] },
-  ];
-  return (
-    <div className="grid grid-cols-3 gap-x-10 gap-y-4">
-      {cols.map((c) => (
-        <Column key={c.title} title={c.title} items={c.items} />
-      ))}
-    </div>
-  );
-}
+// function GuidePanel() {
+//   const cols = [
+//     {
+//       title: "Essential Guide",
+//       items: [
+//         "Language",
+//         "SIM cards & internet",
+//         "Health & Safety",
+//         "Money & Budget",
+//         "Visa guide",
+//         "Best time to visit",
+//         "Month by month",
+//         "Scam",
+//       ],
+//     },
+//     {
+//       title: "Getting around",
+//       items: ["Transportation", "Popular routes", "Must see, visit & experience", "Stay"],
+//     },
+//     { title: "Culture & Cuisine", items: ["People", "Food", "Shopping", "Festivals", "Insights"] },
+//   ];
+//   return (
+//     <div className="grid grid-cols-3 gap-x-10 gap-y-4">
+//       {cols.map((c) => (
+//         <Column key={c.title} title={c.title} items={c.items} />
+//       ))}
+//     </div>
+//   );
+// }
 
 function Column({
   title,
@@ -256,20 +240,20 @@ function Column({
   twoCols,
 }: {
   title: string;
-  items: string[];
+  items: {href:string, title:string}[];
   twoCols?: boolean;
 }) {
   return (
     <div>
       <h3 className="mb-3 border-l-4 border-neutral-200 pl-2 font-semibold text-neutral-700">{title}</h3>
       <ul className={`${twoCols ? "grid grid-cols-2 gap-2" : "space-y-1"}`}>
-        {items.map((t) => (
-          <li key={t}>
+        {items.map((t,index) => (
+          <li key={index}>
             <Link
-              href="#"
+              href={t.href}
               className="relative text-sm text-neutral-600 transition-colors hover:text-pink-600"
             >
-              {t}
+              {t.title}
             </Link>
           </li>
         ))}
@@ -292,7 +276,7 @@ function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
       role="dialog"
     >
       <div className="flex items-center justify-between bg-pink-600 px-6 py-4 text-white">
-        <h2 className="text-xl font-bold">Seniworld</h2>
+        <h2 className="text-xl font-bold">Velogo</h2>
         <button aria-label="Close menu" onClick={onClose}>
           <X className="h-6 w-6" />
         </button>

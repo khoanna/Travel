@@ -1,6 +1,9 @@
 import HeroBanner from "@/components/Home/Banner";
+import ExperiencesShowcase from "@/components/Home/Experiences";
+import ExploreStyles from "@/components/Home/Explore";
 import FeaturesSection from "@/components/Home/Feature";
 import TopPicksVietnam from "@/components/Home/Tour";
+import WhyTravelWithUs from "@/components/Home/WhyTravelWithUs";
 
 export default function Home() {
   return (
@@ -8,6 +11,9 @@ export default function Home() {
       <HeroBanner />
       <FeaturesSection />
       <TopPicksVietnam />
+      <ExploreStyles />
+      <ExperiencesShowcase />
+      <WhyTravelWithUs />
     </div>
   );
 }

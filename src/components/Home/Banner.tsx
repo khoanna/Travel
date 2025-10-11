@@ -17,7 +17,7 @@ export default function HeroBanner({
   imageUrl = "/Home/HomeBanner.webp",
   height = "h-[72vh] md:h-[82vh]",
   overlay = true,
-  align = "center", // 'left' | 'center' | 'right'
+  align = "center", 
 }: {
   title?: string;
   subtitle?: string;
