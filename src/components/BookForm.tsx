@@ -70,8 +70,8 @@ export default function BookingModal({
         }
 
         const fd = new FormData(formRef.current);
-        const payload: Record<string, any> = {};
-        fd.forEach((v, k) => (payload[k] = v));
+        const payload: Record<string, string> = {};
+        fd.forEach((v, k) => (payload[k] = String(v)));
 
         // bổ sung meta
         payload.tour = tour; // tên tour cần gửi
@@ -93,7 +93,7 @@ export default function BookingModal({
             onClose();
             setLoading(false);
 
-        } catch (err: any) {
+        } catch (err) {
             setLoading(false);
             console.error(err);
             alert("❌ Failed to send your request. Please try again later.");
