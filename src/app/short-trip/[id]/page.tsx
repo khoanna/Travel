@@ -2,12 +2,23 @@
 
 import TourCard from '@/components/Card/Tour'
 import HeroBanner from '@/components/Home/Banner'
-import { tourList, TourDetail } from '@/data'
+import { TourDetail, tourList } from '@/data'
+import { usePathname } from 'next/navigation'
 import React from 'react'
 
-const listTour = tourList.slice(0, 6)
+const index = [
+    {
+        params: "/short-trip/ha-noi",
+        start: 6,
+        end: 13
+    }
+]
 
 const page = () => {
+    const path = usePathname();
+    const obj = index.find(i => i.params === path)
+    const listTour = tourList.slice(obj?.start, obj?.end)
+
     return (
         <div>
             <HeroBanner height='h-[60vh] md:h-[70vh]' imageUrl='/Tour/0.jpg' title='Vietnam Tour Packages' subtitle='Want to plan your own Vietnam Tour Packages with help of local travel experts?' />

@@ -12,9 +12,6 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Velogo Travel",
   description: "Explore the world with Velogo Travel",
-  icons: {
-    icon: "/favicon.png",
-  },
 };
 
 export default function RootLayout({

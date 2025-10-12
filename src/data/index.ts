@@ -160,7 +160,7 @@ export const tourList: TourDetail[] = [
     },
     {
         id: 3,
-        img: ["/Tour/3.webp"],
+        img: ["/Tour/3.0.webp", "/Tour/3.1.jpg", "/Tour/3.2.jpg", "/Tour/3.3.jpg", "/Tour/3.4.jpg"],
         title: "Around Highlights Vietnam In 7 Days: Saigon, Da Nang, Hanoi & Ha Long Bay",
         type: ["Classic Tour", "Family Holiday", "For senior citizens", "Honeymoon"],
         destination: ["Sai Gon", "Da Nang", "Ha Noi", "Ha Long"],
@@ -243,10 +243,10 @@ export const tourList: TourDetail[] = [
     },
     {
         id: 4,
-        img: ["/Tour/4.png"],
+        img: ["/Tour/4.0.png", "/Tour/4.1.jpg", "/Tour/4.2.jpg", "/Tour/4.3.jpg", "/Tour/4.4.jpg"],
         title: "Flavors & Heritage of Vietnam in 15 Days",
         type: ["Beach Holiday", "Classic Tour", "For senior citizens", "Honeymoon"],
-        destination: ["Ha Noi", "Ninh Binh" , "Halong Bay", "Hue", "Hoi An" , "Ho Chi Minh City" , "Mekong Delta"],
+        destination: ["Ha Noi", "Ninh Binh", "Halong Bay", "Hue", "Hoi An", "Ho Chi Minh City", "Mekong Delta"],
         duration: 15,
         price: 1795,
         general: "Experience a 15-day adventure in Vietnam that takes you from the bustling Hanoi streets to the peaceful waters of Halong Bay, Hue’s beautiful city, and Hoi An’s twinkling lights. Along the journey, sample street food by Vespa, explore ancient fortresses, cruise through limestone landscapes, and stroll through riverside villages in the Mekong Delta. As Seni World takes care of all your requirements, you can just unwind and enjoy all your valuable travel moments.",
@@ -412,7 +412,7 @@ After your meal, return by boat to Chet Say Pier. Your guide and driver will be 
     },
     {
         id: 5,
-        img: ["/Tour/5.jpg"],
+        img: ["/Tour/5.0.jpg", "/Tour/5.1.jpg", "/Tour/5.2.jpg", "/Tour/5.3.jpg", "/Tour/5.4.jpg"],
         title: "Soul of Vietnam: From Hanoi to Ho Chi Minh City",
         type: ["Classic Tour", "For senior citizens"],
         price: 1584,
@@ -567,9 +567,9 @@ Overnight in Hanoi.`
     },
     {
         id: 6,
-        img: ["/Tour/6.jpg"],
+        img: ["/Tour/6.0.jpg", "/Tour/6.1.jpg", "/Tour/6.2.jpg", "/Tour/6.3.jpg", "/Tour/6.4.jpg"],
         title: "The Vietnamese Story from Hanoi to Danang",
-        destination: ["Ha Noi" , "Da Nang"],
+        destination: ["Ha Noi", "Da Nang"],
         duration: 9,
         type: ["Beach Holiday", "Classic Tour", "Family Holiday", "For senior citizens"],
         price: 670,
@@ -686,5 +686,228 @@ End your day with a relaxing dinner by the Han River, where sparkling lights and
             }
         ],
         accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 7,
+        img: ["/Hanoi/1.jpg", "/Hanoi/2.jpg", "/Hanoi/3.jpg", "/Hanoi/4.jpg", "/Hanoi/5.jpg"],
+        title: "Full Day to Duong Lam Ancient Village Tour – Private",
+        destination: ["Ha Noi"],
+        duration: 1,
+        type: ["Culture & History Tours"],
+        price: 39,
+        general: "Are you looking for a hassle-free and authentic day trip from Hanoi? Grab the chance to take a day trip back in time to Duong Lam Ancient Village – a beautiful, peaceful and quiet village with an abundance of ancient houses, temples, gates and wells, anything you can think of a typical traditional Vietnamese village. It is also a great chance to get an escape from the hustle and bustle of Hanoi city, trace back the origin of Vietnam’s culture and traditions and paddle through a collection of unspoiled hamlets which are unique in Vietnam.",
+        special: [
+            "Delve into the charm of Duong Lam, a typical ancient village in the Northern Delta region",
+            "Visit Mong Phu village communal house, Lady Mia palace, Tham Hoa Giang Van Minh church, and Mia pagoda, boasting the most ancient Buddha statues in Vietnam",
+            "Step back Son Tay ancient citadel, serving as a robust defense structure for the northwest of Thang Long",
+            "Explore Khai Nguyen Pagoda",
+        ],
+        details: [
+            {
+                title: "Full Day to Duong Lam Ancient Village Tour – Private",
+                description: `08:00 – 08:30 AM: Car and tour guide pick you up at hotels in the Old Quarter and Opera House area and depart to visit:
+
+Duong Lam Ancient Village, a typical ancient village of the Northern Delta region. You pass through the ancient village gate, visit Mong Phu village communal house, Lady Mia palace, Tham Hoa Giang Van Minh church, Mia pagoda – The pagoda has the most ancient Buddha statues in Vietnam. You walk along the village, visit ancient houses and enjoy specialties: sticky rice wine and sweet soup.
+
+Lunch at the restaurant, rest. In the afternoon, continue to visit:
+
+Son Tay Ancient Citadel: was built in the 3rd year of Minh Mang (1822) and is the only ancient citadel built of laterite in Vietnam with unique architecture such as: walls made of laterite, 4 gates built of ancient bricks. This is one of the few citadels from the Minh Mang dynasty remaining today, the citadel was solidly built to protect the northwest of Thang Long.
+
+Khai Nguyen Pagoda: also known as Tan Vien Pagoda, full name is Tan Vien Son Quoc Tu. The pagoda’s history dates back to the Ly Dynasty in the first half of the 11th century. Because it was built on the old foundation, following the old architecture but newly renovated since 2008, the pagoda has a very unique ancient mark, without destroying the space and historical value.
+
+The car takes you back to the meeting point. End this tour!`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 8,
+        img: ["/Hanoi/6.jpg", "/Hanoi/7.jpg", "/Hanoi/8.jpg"],
+        title: "Half Day Tour to Quang Phu Cau Incense Village – Private",
+        destination: ["Ha Noi"],
+        duration: 1,
+        type: ["Culture & History Tours"],
+        price: 23,
+        general: "Quang Phu Cau Incense Village promises an immersive experience where you can explore the art of incense-making and connect with the cultural heritage of the region. Seize the opportunity to capture the beauty of this vibrant village, creating lasting memories that reflect the intricate craftsmanship and timeless traditions of Quang Phu Cau.",
+        special: [
+            "Immerse yourself in the vibrant Quang Phu Cau Incense Village",
+            "Explore the intricate incense-making process",
+            "Seize the moment to capture stunning photographs here",
+        ],
+        details: [
+            {
+                title: "Half Day Tour to Quang Phu Cau Incense Village – Private",
+                description: `08:00 AM: Our driver will arrive at your Hanoi hotel for pick-up.
+
+09:20 – 09:50 AM: Arrival at Quang Phu Cau Incense Village. At this time, farmers will have already laid out incense to dry in various formations. You can capture moments of local people working amidst this vibrant display of colors.
+
+11:00 AM: We continue our journey into the village factory, delving into the incense-making process. This includes witnessing bamboo chopping, dipping sticks in dye, and the creation of incense paste. Let’s capture more moments with local farmers who have dedicated generations to producing incense in this village.
+
+Relax and board a private car for the return trip to Hanoi. Arrive in Hanoi and be dropped off at your hotel. End this tour!`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 9,
+        img: ["/Hanoi/9.jpg", "/Hanoi/10.jpg", "/Hanoi/11.jpg", "/Hanoi/12.jpg"],
+        title: "Hanoi Jeep Tour: Full Day Tour – Private",
+        destination: ["Ha Noi"],
+        duration: 1,
+        type: ["City Tours"],
+        price: 0,
+        general: "This comprehensive tour offers a holistic perspective of Hanoi, combining cultural exploration, historical insights, and the simple pleasures of authentic local life. It is a unique opportunity to connect with the soul of the city and create lasting memories of your visit to Hanoi.",
+        special: [
+            "Discover the authentic Hanoi through the maze of backstreets, tiny alleyways, local homes, schools, and markets",
+            "Visit the Ho Chi Minh Mausoleum, a sacred place honoring the Vietnamese leader",
+            "Witness the beauty of Hoang Hoa Tham, Hanoi’s most beautiful bonsai street",
+            "Experience the B52 American aircraft site, a reminder of Hanoi’s history",
+            "Explore Red River Delta villages, witness daily life, and stroll through vast green rice paddies",
+            "Dive into Vietnamese history at Co Loa, the temple dedicated to King An Duong Vuong"
+        ],
+        details: [
+            {
+                title: "Hanoi Jeep Tour: Full Day Tour – Private",
+                description: `08:00 AM: Embark on a unique journey with our Hanoi Jeep Tour, starting from your Hanoi Old Quarter hotel. Our guide and driver will greet you for a safety briefing before venturing into the heart of Hanoi.
+
+The first leg of the tour takes you to the Hanoi Opera House, a historical landmark hosting significant events.
+
+Moving to the second part, visit must-see places like the Ho Chi Minh Mausoleum – the Mecca of Vietnamese history, built to keep Ho Chi Minh’s body preserved. Explore Thanh Nien Street between two lakes and discover Banana Island, a hidden gem just 3.4 km from the city center, offering a unique contrast to modern Hanoi. Discover outskirt villages around West Lake and Truc Bach Lake, experiencing the harmony of life beyond the city center. Visit the ancient Van Nien Pagoda, adding historical depth to your journey.
+
+The third part introduces Hoang Hoa Tham, the beautiful bonsai street, and takes you through Hanoi’s backstreets, revealing hidden tranquil spots and the B52 American aircraft shot down during the war. This leg offers a journey through Hanoi’s past, present, and future, showcasing its diverse landscape.
+
+The final part is a culinary delight, stopping at authentic eateries to savor the best of Hanoi’s dishes, including family heirloom recipes and local specialties. This comprehensive journey offers a unique blend of history, culture, and culinary experiences, providing a deeper understanding of Hanoi’s charm.
+
+Afternoon:
+
+Departing from the bustling city streets, the scenic route takes you through the urban outskirts into the serene countryside, crossing the bridge to the tranquil Red River Delta. Experience the authentic daily life of local residents as the Jeep explores villages along the delta, offering a glimpse into the vibrant green rice paddies where farmers diligently work.
+
+Beyond the picturesque landscapes, the Hanoi Jeep Tour extends to a local market, providing a firsthand look at the bustling trade and commerce of the area. Venturing into Vietnam’s rich history, the tour takes you to the significant An Duong Vuong site. This historical figure, known for founding the country and establishing the name Au Lac, holds a vital place in Vietnamese history. At Co Loa, a temple dedicated to King An Duong Vuong, the guide shares insightful narratives about this crucial period.
+
+Continuing the journey, the Jeep traverses farms, leading to a local family’s fruit plantation. Delight in the freshness of tropical fruits, handpicked from the farm, offering a unique perspective on the daily life of Red River Delta locals.
+
+As the adventure concludes, the Jeep gracefully navigates along the back of the Red River, revealing spectacular landscapes and picturesque rice farms. After exploration and cultural immersion, we will take you back to your hotel at 04:00 PM.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 10,
+        img: ["/Hanoi/13.jpg", "/Hanoi/14.jpg", "/Hanoi/15.jpg", "/Hanoi/16.jpg", "/Hanoi/17.jpg"],
+        title: "Hanoi Jeep Tour: Street Food Tour – Private",
+        destination: ["Ha Noi"],
+        duration: 1,
+        type: ["Food Tours"],
+        price: 100,
+        general: "The Hanoi Jeep adventure promises a holistic experience, blending history, gastronomy, and nighttime exploration. From the historical significance of Joseph’s Cathedral to the culinary delights of Bun Cha and the allure of the French Quarter at night, let this journey with the Hanoi Jeep team unveil the magic of Hanoi in a truly immersive way.",
+        special: [
+            "Get started on a journey through Hanoi with our Hanoi Jeep team – Discover the rich history of Joseph’s Cathedral",
+            "Venture to a hidden gem street for a taste of Hanoi’s most famous dish, Bun Cha",
+            "Explore the French Quarter at night",
+            "Cap off the evening with a visit to an Egg coffee shop",
+        ],
+        details: [
+            {
+                title: "Hanoi Jeep Tour: Street Food Tour – Private",
+                description: `Lunch Street Food: 12:00 – 03:30 PM (Lunch included at the end)
+
+Night Food Tour: 06:00 – 09:30 PM (All food and drink included)
+
+Duration: 3,5 – 4 hours
+
+Discover the heart of Hanoi with our Jeep Tour, beginning with a convenient hotel pickup. Join fellow travelers at the historical site of the old church in Hanoi, where our guide shares insights into Joseph’s Cathedral. Capture memorable photos before delving into a culinary adventure.
+
+Hop aboard the Jeep and explore a hidden street, renowned for Hanoi’s famous Bun Cha since 1925. Notably, even President Obama dined here during his 2016 visit to Vietnam.
+
+Venture into the next stop, French Quarter for a night tour, marveling at the stunning colonial architecture. Our Jeep team stops by the Hanoi Opera House, providing an opportunity to learn about the French Quarter’s history with our guide.
+
+Continue the journey on the Jeep, passing through the picturesque ceramic road and you will have a chance to take a stroll at Long Bien Bridge for a captivating view of Hanoi at night when we stop at the bridge.
+
+Navigate the lively, chaotic traffic to reach a local restaurant, offering a taste of authentic Vietnamese dishes. Explore small alleys to savor various versions of Pho, Pho Chien Phong, Chien Trung, and Pho Cuon – renowned Vietnamese delicacies.
+
+Embark on a romantic ride around a large lake, a rarely seen sight in Hanoi, ensuring a memorable experience. The tour continues with a drive past the Ho Chi Minh Mausoleum, you will have an opportunity for night-time photography here.
+
+Conclude the journey with a visit to an Egg coffee shop, where you can savor Vietnam’s traditional special coffee.
+
+Join our Hanoi Jeep Tour for a personalized exploration of the city, forging new friendships, and creating lasting memories.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 11,
+        img: ["/Hanoi/15.jpg", "/Hanoi/16.jpg", "/Hanoi/17.jpg", "/Hanoi/18.jpg", "/Hanoi/19.jpg", "/Hanoi/19.jpg"],
+        title: "Hanoi Vintage Vespa Tour: Night Food Tour – Private",
+        destination: ["Ha Noi"],
+        duration: 1,
+        type: ["Food Tours"],
+        price: 108,
+        general: "Our journey through Hanoi invites you to glide through charming quarters, savor iconic culinary delights, appreciate historical landmarks, and immerse yourself in the dynamic nightlife of the city. From the traditional flavors of Bun Cha to the contemporary energy of local bars, each experience adds a layer to the vibrant tapestry of Hanoi’s cultural and culinary scene.",
+        special: [
+            "Glide through the French Quarter, kick off your culinary journey with Bun Cha, a beloved Hanoi specialty",
+            "Navigate the bustling streets to reach the majestic Long Bien Bridge",
+            "Savor some signature foods like “Burned Garlic Sesame Duck”, “Liver Pâté Sesame Duck”, “Pho”",
+            "Enjoy Egg coffee next to railway tracks",
+            "Immerse yourself in Hanoi’s nightlife at a local bar",
+        ],
+        details: [
+            {
+                title: "Hanoi Vintage Vespa Tour: Night Food Tour – Private",
+                description: `06:00 PM: We will pick you up at your hotel. Hop onto the back of a Vespa as we explore the city’s vibrant food scene and cultural treasures.
+
+Start your adventure at a local restaurant renowned for “Bun Cha”, where the Obama President came to eat here. After indulging in this local delight, we’ll ride through the charming French Quarter. Capture the essence of Hanoi at the iconic Hanoi Opera House, where you can witness history meets architectural beauty.
+
+Next, we’ll navigate the bustling streets to reach the historic Long Bien Bridge, a magnificent structure spanning the Red River. As we traverse districts, you’ll witness the beauty of Hanoi night from the bridge.
+
+We will ride you through the picturesque ceramic road and Chuong Duong Bridge to savor “Burned garlic Siamese duck” and “Liver pâté Siamese duck” at our next gastronomic stop.
+
+Dive into the authentic flavors of Vietnamese cuisine at a local restaurant, where you’ll have the opportunity to try renowned dishes like “Pho Chien Phong” and “Pho Cuon” in charming small alleys.
+
+Experience the romantic side of Hanoi with a ride around the big lake, offering a rarely seen perspective of the city. As night falls, we’ll pass by the Ho Chi Minh Mausoleum, capturing the illuminated beauty of Hanoi.
+
+Unwind at an Egg coffee shop by the railway tracks, where you can sip on this unique local specialty while watching trains pass by.
+
+Conclude your evening by immersing yourself in Hanoi’s lively nightlife. You can join the locals at a trendy bar featuring live acoustic or jazz music. Whether you choose to showcase your talents or simply enjoy the local musical scene, our Vespa tour promises to create unforgettable memories and new friendships in the heart of Hanoi.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 12,
+        img: ["/Hanoi/19.jpg", "/Hanoi/20.jpg", "/Hanoi/21.jpg", "/Hanoi/22.jpg", "/Hanoi/23.jpg", "/Hanoi/24.jpg"],
+        title: "Hanoi Vintage Vespa Tour: Half Day City Tour – Private",
+        destination: ["Ha Noi"],
+        duration: 1,
+        type: ["Food Tours", "Culture & History Tours"],
+        price: 108,
+        general: "This curated exploration invites you to dive into Hanoi’s historical layers, traverse iconic landmarks, escape to hidden gems, and immerse yourself in local traditions. From the tranquility of West Lake to the remnants of wartime history, each element contributes to a rich and multifaceted experience of Hanoi’s cultural and historical landscape.",
+        special: [
+            "Dive into Hanoi’s historical layers: the French Quarter and Hanoi Opera House",
+            "Traverse the historic Long Bien Bridge",
+            "Escape to a hidden gem village on the Red River Island",
+            "Immerse yourself in the traditions and agricultural richness of the region",
+            "Visit Tran Quoc Pagoda on West Lake, one of Hanoi’s largest lakes",
+            "Witness the remnants of a B-52 bomber shot down",
+            "Savor Vietnamese egg coffee",
+        ],
+        details: [
+            {
+                title: "Hanoi Vintage Vespa Tour: Half Day City Tour – Private",
+                description: `08:00 AM: We will pick you up at your hotel in Hanoi Old Quarter. Your first stop is French Quarter and the iconic Hanoi Opera House, where you can delve into French colonial history. Move on to the Long Bien Bridge, a century-old marvel spanning the Red River, connecting districts and providing shelter to locals.
+
+Embark on a river island adventure, you can witness a hidden village and witnessing the simple yet resilient lives of its inhabitants. You can also have chance to meet and chat with people live on this island.
+
+We will drive you to traverse banana and vegetable farms and visit a Kumquat farm, a symbol of prosperity during Tet, the Vietnamese lunar new year.
+
+Continue your ride to Tran Quoc Pagoda, offering breathtaking views of Hanoi from West Lake. Explore Thanh Nien Street, stopping at the Monument of John McCain by Truc Bach Lake to learn about his story. We ride you through botanical gardens, narrow alleys, and Huu Tiep Lake, site of a poignant B-52 crash during the 1972 bombings.
+
+Head towards Ho Chi Minh Mausoleum, gaining insights into Hanoi’s history. Conclude your journey with a stop for Vietnamese coffee, experiencing local life by the railway tracks. End the Vespa tour at a local restaurant, savoring authentic Vietnamese cuisine.
+
+After lunch, we will ride you back to your hotel stay or you can get off anywhere you want just tell our rider.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
     }
+
 ]
+

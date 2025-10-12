@@ -11,7 +11,9 @@ import {
   Twitter,
   Youtube,
   Pin,
+  TicketCheckIcon,
 } from "lucide-react";
+import { FaTiktok } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -39,30 +41,19 @@ export default function Footer() {
             <ul className="mt-5 space-y-4 text-neutral-700">
               <FooterInfo icon={<Phone className="h-5 w-5" />}>
                 <a href="tel:+84868663993" className="hover:text-pink-600">
-                  (+84) 868 663 993
+                  +84 96 219 35 27
                 </a>
               </FooterInfo>
 
               <FooterInfo icon={<Mail className="h-5 w-5" />}>
                 <a
-                  href="mailto:info@seniworld.com"
+                  href="mailto:velogotravel@gmail.com"
                   className="break-all hover:text-pink-600"
                 >
-                  info@seniworld.com
+                  velogotravel@gmail.com
                 </a>
               </FooterInfo>
 
-              <FooterInfo icon={<MapPin className="h-5 w-5" />}>
-                Tran Phu Building, Duong Dinh Nghe, Hanoi, Vietnam
-              </FooterInfo>
-
-              <FooterInfo icon={<MapPin className="h-5 w-5" />}>
-                131 Group 4, Traing Village, Sangkat Slorkram, Siem Reap, Cambodia
-              </FooterInfo>
-
-              <FooterInfo icon={<MapPin className="h-5 w-5" />}>
-                Ban Mano, Manomai Road, Luang Prabang, Laos
-              </FooterInfo>
             </ul>
           </div>
 
@@ -91,20 +82,17 @@ export default function Footer() {
             <h3 className="text-xl font-semibold text-neutral-900">Follow us</h3>
 
             <div className="mt-5 flex items-center gap-3">
-              <SocialIcon href="#" label="Facebook">
+              <SocialIcon href="https://www.facebook.com/profile.php?id=61578139232634" label="Facebook">
                 <Facebook className="h-4 w-4" />
               </SocialIcon>
-              <SocialIcon href="#" label="Instagram">
+              <SocialIcon href="https://www.instagram.com/velogotravel" label="Instagram">
                 <Instagram className="h-4 w-4" />
               </SocialIcon>
-              <SocialIcon href="#" label="Twitter / X">
+              <SocialIcon href="https://x.com/Velogotravel" label="Twitter / X">
                 <Twitter className="h-4 w-4" />
               </SocialIcon>
-              <SocialIcon href="#" label="YouTube">
-                <Youtube className="h-4 w-4" />
-              </SocialIcon>
-              <SocialIcon href="#" label="Pinterest">
-                <Pin className="h-4 w-4" />
+              <SocialIcon href="https://www.tiktok.com/@velogo.vietnam.tr" label="Tiktok">
+                <FaTiktok className="h-4 w-4" />
               </SocialIcon>
             </div>
 
@@ -183,6 +171,7 @@ function SocialIcon({
 }) {
   return (
     <Link
+      target="_blank"
       href={href}
       aria-label={label}
       className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-neutral-100 text-neutral-700 ring-1 ring-transparent transition hover:bg-pink-50 hover:text-pink-600 hover:ring-pink-200"

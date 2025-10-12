@@ -3,14 +3,14 @@
 import Link from "next/link";
 import { JSX, useEffect, useRef, useState } from "react";
 import { ChevronDown, Menu, X, SlidersHorizontal } from "lucide-react";
-
+import Image from "next/image";
 
 type MenuKey = "Tours" | "Travel Guide" | null;
 
 export default function Navbar() {
   // Desktop
-  const [activeMenu, setActiveMenu] = useState<MenuKey>(null); // menu đang mở panel
-  const [hoveredMenu, setHoveredMenu] = useState<MenuKey>(null); // underline hover
+  const [activeMenu, setActiveMenu] = useState<MenuKey>(null);
+  const [hoveredMenu, setHoveredMenu] = useState<MenuKey>(null);
   const closeTimerRef = useRef<NodeJS.Timeout | null>(null);
   const menuRootRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
@@ -51,15 +51,15 @@ export default function Navbar() {
 
   const desktopItems: Array<{ title: Exclude<MenuKey, null>; panel?: JSX.Element }> = [
     { title: "Tours", panel: <ToursPanel /> },
-    // { title: "Travel Guide", panel: <GuidePanel /> },
-    ];
+    { title: "Travel Guide", panel: <GuidePanel /> },
+  ];
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-neutral-200 bg-white/80 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 md:px-10">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold text-pink-600">
-          Velogo
+          <Image src="/logo.png" alt="Velogo" width={120} height={40} />
         </Link>
 
         {/* Desktop Nav */}
@@ -67,7 +67,9 @@ export default function Navbar() {
           {desktopItems.map((item) => (
             <div
               key={item.title}
-              ref={(el) => { menuRootRefs.current[item.title] = el; }}
+              ref={(el) => {
+                menuRootRefs.current[item.title] = el;
+              }}
               className="relative"
               onMouseEnter={() => {
                 clearCloseTimer();
@@ -161,7 +163,7 @@ function MegaPanel({
       onMouseEnter={onEnter}
       onMouseLeave={onLeave}
     >
-      {/* Hover bridge: cho phép có gap mà vẫn đi chuột xuống panel không tắt */}
+      {/* Hover bridge */}
       <div className="absolute -top-5 left-0 h-6 w-full bg-transparent" />
       <div className="w-[900px] rounded-2xl border border-neutral-200 bg-white p-8 shadow-2xl">
         {children}
@@ -170,69 +172,91 @@ function MegaPanel({
   );
 }
 
+/* --------------------------- Helpers --------------------------- */
+function slugify(s: string) {
+  return s
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/\s+/g, "-")
+    .replace(/[^a-z0-9-]/g, "");
+}
+const toShortTripLinks = (names: string[]) =>
+  names.map((name) => ({ title: name, href: `/short-trip/${slugify(name)}` }));
+
+/* --------------------------- Panels --------------------------- */
+
 function ToursPanel() {
+  const shortTrips = toShortTripLinks([
+    "Ha Noi",
+    "Ho Chi Minh",
+    "Mekong Delta",
+    "Da Nang",
+    "Hoi An",
+    "Da Lat",
+    "Ha Giang",
+    "Hue",
+    "Mai Chau",
+    "Nha Trang",
+    "Ninh Binh",
+    "Phu Quoc",
+    "Sapa",
+    "Pu Luong",
+  ]);
+
+  const cruises = [
+    { title: "Halong Bay Cruises", href: "#" },
+    { title: "Mekong River Cruises", href: "#" },
+  ];
+
   return (
     <div className="grid grid-cols-3 gap-x-10 gap-y-4">
-      <Column title="Tour Packages" items={[
-        {
-          href: "/tour",
-          title: "Vietnam Tour Packages",
-        }
-      ]} />
-      {/* <Column
-        title="Short Trips"
-        items={[
-          "Ha Noi",
-          "Ho Chi Minh",
-          "Mekong Delta",
-          "Da Nang",
-          "Hoi An",
-          "Da Lat",
-          "Ha Giang",
-          "Hue",
-          "Mai Chau",
-          "Nha Trang",
-          "Ninh Binh",
-          "Phu Quoc",
-          "Sapa",
-          "Pu Luong",
-        ]}
-        twoCols
+      <Column
+        title="Tour Packages"
+        items={[{ href: "/tour", title: "Vietnam Tour Packages" }]}
       />
-      <Column title="Cruises" items={["Halong Bay Cruises", "Mekong River Cruises"]} /> */}
+      <Column title="Short Trips" items={shortTrips} twoCols />
+      <Column title="Cruises" items={cruises} />
     </div>
   );
 }
 
-// function GuidePanel() {
-//   const cols = [
-//     {
-//       title: "Essential Guide",
-//       items: [
-//         "Language",
-//         "SIM cards & internet",
-//         "Health & Safety",
-//         "Money & Budget",
-//         "Visa guide",
-//         "Best time to visit",
-//         "Month by month",
-//         "Scam",
-//       ],
-//     },
-//     {
-//       title: "Getting around",
-//       items: ["Transportation", "Popular routes", "Must see, visit & experience", "Stay"],
-//     },
-//     { title: "Culture & Cuisine", items: ["People", "Food", "Shopping", "Festivals", "Insights"] },
-//   ];
-//   return (
-//     <div className="grid grid-cols-3 gap-x-10 gap-y-4">
-//       {cols.map((c) => (
-//         <Column key={c.title} title={c.title} items={c.items} />
-//       ))}
-//     </div>
-//   );
-// }
+function GuidePanel() {
+  const toLinkItems = (arr: string[]) => arr.map((t) => ({ href: "#", title: t }));
+
+  const cols: Array<{ title: string; items: { href: string; title: string }[] }> = [
+    {
+      title: "Essential Guide",
+      items: toLinkItems([
+        "Language",
+        "SIM cards & internet",
+        "Health & Safety",
+        "Money & Budget",
+        "Visa guide",
+        "Best time to visit",
+        "Month by month",
+        "Scam",
+      ]),
+    },
+    {
+      title: "Getting around",
+      items: toLinkItems(["Transportation", "Popular routes", "Must see, visit & experience", "Stay"]),
+    },
+    {
+      title: "Culture & Cuisine",
+      items: toLinkItems(["People", "Food", "Shopping", "Festivals", "Insights"]),
+    },
+  ];
+
+  return (
+    <div className="grid grid-cols-3 gap-x-10 gap-y-4">
+      {cols.map((c) => (
+        <Column key={c.title} title={c.title} items={c.items} />
+      ))}
+    </div>
+  );
+}
+
+/* --------------------------- Column --------------------------- */
 
 function Column({
   title,
@@ -240,14 +264,16 @@ function Column({
   twoCols,
 }: {
   title: string;
-  items: {href:string, title:string}[];
+  items: { href: string; title: string }[];
   twoCols?: boolean;
 }) {
   return (
     <div>
-      <h3 className="mb-3 border-l-4 border-neutral-200 pl-2 font-semibold text-neutral-700">{title}</h3>
+      <h3 className="mb-3 border-l-4 border-neutral-200 pl-2 font-semibold text-neutral-700">
+        {title}
+      </h3>
       <ul className={`${twoCols ? "grid grid-cols-2 gap-2" : "space-y-1"}`}>
-        {items.map((t,index) => (
+        {items.map((t, index) => (
           <li key={index}>
             <Link
               href={t.href}
@@ -263,6 +289,7 @@ function Column({
 }
 
 /* ===================== Mobile Drawer ===================== */
+
 function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
   const [openKey, setOpenKey] = useState<string | null>(null);
   const toggle = (k: string) => setOpenKey((prev) => (prev === k ? null : k));
@@ -275,14 +302,14 @@ function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
       aria-hidden={!open}
       role="dialog"
     >
-      <div className="flex items-center justify-between bg-pink-600 px-6 py-4 text-white">
-        <h2 className="text-xl font-bold">Velogo</h2>
+      <div className="flex items-center justify-between bg-pink-300 px-6 py-2 text-white">
+        <Image src="/logo.png" alt="Velogo" width={120} height={40} />
         <button aria-label="Close menu" onClick={onClose}>
           <X className="h-6 w-6" />
         </button>
       </div>
 
-      <div className="border-b border-neutral-100 p-6 text-sm text-neutral-700">
+      <div className="border-b bg-white border-neutral-100 p-6 text-sm text-neutral-700">
         <p className="mb-3">
           Share your ideas with our local expert team – we’re here to listen and help you shape a
           meaningful journey through Indochina.
@@ -306,20 +333,20 @@ function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
             {
               label: "Short Trips",
               children: [
-                "Hanoi Tours",
-                "Ho Chi Minh Tours",
-                "Mekong Delta Tours",
-                "Da Nang Tours",
-                "Hoi An Tours",
-                "Da Lat Tours",
-                "Ha Giang Tours",
-                "Hue Tours",
-                "Mai Chau Tours",
-                "Nha Trang Tours",
-                "Ninh Binh Tours",
-                "Phu Quoc Tours",
-                "Sapa Tours",
-                "Pu Luong Tours",
+                "Ha Noi",
+                "Ho Chi Minh",
+                "Mekong Delta",
+                "Da Nang",
+                "Hoi An",
+                "Da Lat",
+                "Ha Giang",
+                "Hue",
+                "Mai Chau",
+                "Nha Trang",
+                "Ninh Binh",
+                "Phu Quoc",
+                "Sapa",
+                "Pu Luong",
               ],
             },
             { label: "Cruises", children: ["Halong Bay Cruises", "Mekong River Cruises"] },
@@ -361,7 +388,10 @@ function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
               label: "Getting around",
               children: ["Transportation", "Popular routes", "Must see & do", "Stay"],
             },
-            { label: "Culture & Cuisine", children: ["People", "Food", "Shopping", "Festivals", "Insights"] },
+            {
+              label: "Culture & Cuisine",
+              children: ["People", "Food", "Shopping", "Festivals", "Insights"],
+            },
           ]}
           onClose={onClose}
         />
@@ -414,7 +444,12 @@ function MobileAccordion({
                 <ul className="ml-3 list-disc space-y-1">
                   {it.children.map((c) => (
                     <li key={c}>
-                      <Link href="#" onClick={onClose} className="hover:text-pink-600">
+                      {/* build href theo short-trips slug */}
+                      <Link
+                        href={`/short-trip/${slugify(c)}`}
+                        onClick={onClose}
+                        className="hover:text-pink-600"
+                      >
                         {c}
                       </Link>
                     </li>
