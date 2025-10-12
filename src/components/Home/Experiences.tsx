@@ -23,7 +23,7 @@ export default function ExperiencesShowcase() {
             <div className="mx-auto max-w-7xl px-6 md:px-10">
                 {/* Header */}
                 <div className="text-center">
-                    <span className="inline-flex items-center rounded-full border border-pink-300 bg-white px-4 py-1.5 text-sm font-semibold text-pink-600 shadow-sm">
+                    <span className="inline-flex items-center rounded-full border border-blue-300 bg-white px-4 py-1.5 text-sm font-semibold text-red-400 shadow-sm">
                         Experiences
                     </span>
                     <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-neutral-900 md:text-5xl">
@@ -95,21 +95,21 @@ function StatCta({ className = "", onClick }: { className?: string; onClick: () 
     return (
         <div
             className={[
-                "flex flex-col items-center justify-between gap-4 rounded-[28px] bg-pink-600 px-8 py-4 text-white",
+                "flex flex-col items-center justify-between gap-4 rounded-[28px] bg-blue-600 px-8 py-4 text-white",
                 "sm:flex-row sm:gap-6",
                 className,
             ].join(" ")}
         >
             <div className="text-center sm:text-left">
                 <div className="font-bold leading-none text-2xl">200+</div>
-                <div className="text-sm font-medium text-pink-50/90 md:text-base">
+                <div className="text-sm font-medium text-blue-50/90 md:text-base">
                     Various destinations and tours
                 </div>
             </div>
 
             <button
                 onClick={onClick}
-                className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-pink-700 shadow-sm transition-colors hover:bg-pink-50"
+                className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-blue-700 shadow-sm transition-colors hover:bg-blue-50"
                 aria-label="View all experiences"
             >
                 View all <ArrowRight className="h-4 w-4" />

@@ -24,7 +24,7 @@ export default function TopPicksVietnam() {
       <div className="mx-auto max-w-7xl px-6 md:px-10 py-16 md:py-24">
         {/* Header */}
         <div className="text-center">
-          <span className="inline-flex items-center rounded-full border border-pink-200 bg-white/80 px-4 py-1.5 text-sm font-semibold text-pink-600 shadow-sm">
+          <span className="inline-flex items-center rounded-full border border-blue-200 bg-white/80 px-4 py-1.5 text-sm font-semibold text-red-400 shadow-sm">
             Tour Packages
           </span>
           <h2 className="mt-4 text-3xl md:text-5xl font-extrabold tracking-tight text-neutral-900">

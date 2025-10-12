@@ -58,7 +58,7 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-neutral-200 bg-white/80 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 md:px-10">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold text-pink-600">
+        <Link href="/" className="text-2xl font-bold text-blue-600">
           <Image src="/Logo.png" alt="Velogo" width={120} height={40} />
         </Link>
 
@@ -83,7 +83,7 @@ export default function Navbar() {
             >
               <button
                 className={`relative cursor-pointer flex items-center gap-1 rounded-full px-3 py-2 transition-colors ${
-                  activeMenu === item.title ? "text-pink-600" : "text-neutral-800"
+                  activeMenu === item.title ? "text-blue-600" : "text-neutral-800"
                 }`}
               >
                 {item.title}
@@ -96,7 +96,7 @@ export default function Navbar() {
                 )}
                 {/* Underline animation */}
                 <span
-                  className={`absolute -bottom-0.5 left-0 h-[2px] bg-pink-600 transition-all duration-300 ${
+                  className={`absolute -bottom-0.5 left-0 h-[2px] bg-blue-600 transition-all duration-300 ${
                     hoveredMenu === item.title || activeMenu === item.title ? "w-full" : "w-0"
                   }`}
                 />
@@ -120,7 +120,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <Link
             href="/tailor"
-            className="hidden items-center gap-2 rounded-full border border-neutral-200 bg-white px-5 py-2 font-semibold shadow-sm transition-all duration-300 hover:bg-pink-600 hover:text-white md:inline-flex"
+            className="hidden items-center gap-2 rounded-full border border-neutral-200 bg-white px-5 py-2 font-semibold shadow-sm transition-all duration-300 hover:bg-blue-600 hover:text-white md:inline-flex"
           >
             Tailor My Trip
             <SlidersHorizontal className="h-4 w-4" />
@@ -277,7 +277,7 @@ function Column({
           <li key={index}>
             <Link
               href={t.href}
-              className="relative text-sm text-neutral-600 transition-colors hover:text-pink-600"
+              className="relative text-sm text-neutral-600 transition-colors hover:text-blue-600"
             >
               {t.title}
             </Link>
@@ -302,7 +302,7 @@ function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
       aria-hidden={!open}
       role="dialog"
     >
-      <div className="flex items-center justify-between bg-pink-300 px-6 py-2 text-white">
+      <div className="flex items-center justify-between bg-blue-300 px-6 py-2 text-white">
         <Image src="/Logo.png" alt="Velogo" width={120} height={40} />
         <button aria-label="Close menu" onClick={onClose}>
           <X className="h-6 w-6" />
@@ -316,7 +316,7 @@ function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
         </p>
         <Link
           href="/tailor"
-          className="inline-flex rounded-full bg-pink-600 px-5 py-2 font-semibold text-white transition hover:bg-pink-700"
+          className="inline-flex rounded-full bg-blue-600 px-5 py-2 font-semibold text-white transition hover:bg-blue-700"
           onClick={onClose}
         >
           Tailor My Trip
@@ -448,7 +448,7 @@ function MobileAccordion({
                       <Link
                         href={`/short-trip/${slugify(c)}`}
                         onClick={onClose}
-                        className="hover:text-pink-600"
+                        className="hover:text-blue-600"
                       >
                         {c}
                       </Link>
@@ -457,7 +457,7 @@ function MobileAccordion({
                 </ul>
               </div>
             ) : (
-              <Link key={it.label} href="#" onClick={onClose} className="block hover:text-pink-600">
+              <Link key={it.label} href="#" onClick={onClose} className="block hover:text-blue-600">
                 {it.label}
               </Link>
             )

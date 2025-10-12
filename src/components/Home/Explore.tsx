@@ -10,7 +10,7 @@ export default function ExploreStyles() {
             <div className="mx-auto max-w-7xl px-6 md:px-10">
                 {/* Section header */}
                 <div className="text-center">
-                    <span className="inline-flex items-center rounded-full border border-pink-200 bg-white px-4 py-1.5 text-sm font-semibold text-pink-600 shadow-sm">
+                    <span className="inline-flex items-center rounded-full border border-blue-200 bg-white px-4 py-1.5 text-sm font-semibold text-red-400 shadow-sm">
                         Travel styles
                     </span>
                     <h2 className="mt-4 text-3xl font-extrabold leading-tight tracking-tight text-neutral-800 md:text-5xl">
@@ -60,7 +60,7 @@ function StyleTile({ id, title,  }: { id: number; title: string}) {
             </div>
 
             {/* focus ring */}
-            <span className="absolute inset-0 rounded-2xl ring-2 ring-pink-500/0 transition group-hover:ring-pink-500/30" />
+            <span className="absolute inset-0 rounded-2xl ring-2 ring-blue-500/0 transition group-hover:ring-blue-500/30" />
         </div>
     );
 }

@@ -36,7 +36,7 @@ export default function WhyTravelWithUs() {
 
       {/* ======= Content ======= */}
       <div className="mx-auto flex max-w-7xl flex-col items-center px-6 py-16 text-center  md:px-10 md:py-24">
-        <span className="inline-flex items-center rounded-full border border-pink-300/60 bg-white/10 px-4 py-1.5 text-sm font-semibold text-pink-400 backdrop-blur">
+        <span className="inline-flex items-center rounded-full border border-blue-300/60 bg-white/10 px-4 py-1.5 text-sm font-semibold text-red-400 backdrop-blur">
           What make us different?
         </span>
 
@@ -59,8 +59,8 @@ export default function WhyTravelWithUs() {
               key={f.title}
               className="mx-auto flex w-full max-w-[520px] items-center gap-4 rounded-3xl bg-white/85 p-4 text-left text-neutral-900 shadow-sm ring-1 ring-white/40 backdrop-blur-md transition hover:bg-white"
             >
-              <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-pink-50 ring-1 ring-pink-100">
-                <Award className="h-6 w-6 text-pink-600" />
+              <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50 ring-1 ring-blue-100">
+                <Award className="h-6 w-6 text-blue-600" />
               </span>
               <p className="font-semibold">{f.title}</p>
             </div>

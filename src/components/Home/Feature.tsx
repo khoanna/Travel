@@ -6,7 +6,7 @@ import clsx from "clsx";
 /**
  * FeaturesSection
  * - Responsive 1/2/4‑column grid
- * - Pink soft icon badge, clean typography
+ * - blue soft icon badge, clean typography
  * - Subtle hover lift + ring
  * - Accessible and configurable via props
  */
@@ -26,7 +26,7 @@ export default function FeaturesSection({
             className="group relative flex flex-col items-center text-center"
           >
             {/* Icon badge */}
-            <span className="mb-6 inline-flex h-24 w-24 items-center justify-center rounded-full bg-pink-50 ring-1 ring-inset ring-pink-100 transition-transform duration-300 group-hover:scale-[1.03]">
+            <span className="mb-6 inline-flex h-24 w-24 items-center justify-center rounded-full bg-blue-50 ring-1 ring-inset ring-blue-100 transition-transform duration-300 group-hover:scale-[1.03]">
               {it.icon}
             </span>
 
@@ -56,25 +56,25 @@ export const DEFAULT_ITEMS: FeatureItem[] = [
     title: "Authentic Local Experiences",
     description:
       "At Seniworld, we bring you closer to the soul of Indochina – experiences that only locals can share with you.",
-    icon: <Soup className="h-10 w-10 text-pink-600" />,
+    icon: <Soup className="h-10 w-10 text-blue-600" />,
   },
   {
     title: "Stress‑Free, Flexible Travel",
     description:
       "Your journey is fully customizable and stress‑free, so you can explore without a worry in the world.",
-    icon: <MapPin className="h-10 w-10 text-pink-600" />,
+    icon: <MapPin className="h-10 w-10 text-blue-600" />,
   },
   {
     title: "Expert Support, Anytime You Need It",
     description:
       "We’re here for you 24/7. Whether it’s last‑minute advice or local insights, we’ve got you covered at every step.",
-    icon: <Flag className="h-10 w-10 text-pink-600" />,
+    icon: <Flag className="h-10 w-10 text-blue-600" />,
   },
   {
     title: "Best Value with Honest Pricing",
     description:
       "Fair pricing, no hidden fees, and no middleman. What you see is what you get — guaranteed.",
-    icon: <Gem className="h-10 w-10 text-pink-600" />,
+    icon: <Gem className="h-10 w-10 text-blue-600" />,
   },
 ];
 

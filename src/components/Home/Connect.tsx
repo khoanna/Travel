@@ -49,7 +49,7 @@ export default function ContactUs({
             <div className="grid w-full grid-cols-1 gap-8 text-center lg:text-left p-4 md:px-40 lg:grid-cols-12 lg:gap-12 lg:py-20">
                 <div className="lg:col-span-6">
                     {subtitle ? (
-                        <p className="mb-3 inline-flex rounded-full bg-white/70 px-4 py-1 text-sm font-semibold text-pink-600 ring-1 ring-rose-200">
+                        <p className="mb-3 inline-flex rounded-full bg-white/70 px-4 py-1 text-sm font-semibold text-blue-600 ring-1 ring-rose-200">
                             {subtitle}
                         </p>
                     ) : null}
@@ -65,7 +65,7 @@ export default function ContactUs({
                 <div className="lg:col-span-6 flex justify-end gap-6 items-center">
                     <Link
                         href={ctaHref}
-                        className="flex items-center justify-center rounded-full bg-pink-600 px-6 py-3 text-base font-semibold text-white shadow-sm transition hover:bg-pink-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pink-500"
+                        className="flex items-center justify-center rounded-full bg-blue-600 px-6 py-3 text-base font-semibold text-white shadow-sm transition hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                     >
                         {ctaText}
                     </Link>

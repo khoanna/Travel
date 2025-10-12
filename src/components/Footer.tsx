@@ -12,6 +12,7 @@ import {
   Youtube,
   Pin,
   TicketCheckIcon,
+  MapIcon,
 } from "lucide-react";
 import { FaTiktok } from "react-icons/fa6";
 
@@ -39,8 +40,14 @@ export default function Footer() {
             <h3 className="text-xl font-semibold text-neutral-900">Get in Touch</h3>
 
             <ul className="mt-5 space-y-4 text-neutral-700">
+              <FooterInfo icon={<MapIcon className="h-5 w-5" />}>
+                <div  className="cursor-pointer hover:text-blue-600">
+                  33 Alley 193 Trung Kinh, Cau Giay, Ha Noi
+                </div>
+              </FooterInfo>
+
               <FooterInfo icon={<Phone className="h-5 w-5" />}>
-                <a href="tel:+84868663993" className="hover:text-pink-600">
+                <a href="tel:+84962193527" className="hover:text-blue-600">
                   +84 96 219 35 27
                 </a>
               </FooterInfo>
@@ -48,7 +55,7 @@ export default function Footer() {
               <FooterInfo icon={<Mail className="h-5 w-5" />}>
                 <a
                   href="mailto:velogotravel@gmail.com"
-                  className="break-all hover:text-pink-600"
+                  className="break-all hover:text-blue-600"
                 >
                   velogotravel@gmail.com
                 </a>
@@ -104,11 +111,11 @@ export default function Footer() {
           <div className="flex flex-col items-center justify-between gap-3 md:flex-row">
             <p>© 2025 Velogo. All rights reserved.</p>
             <div className="flex items-center gap-4">
-              <Link href="/privacy" className="hover:text-pink-600">
+              <Link href="/privacy" className="hover:text-blue-600">
                 Privacy Policy
               </Link>
               <span className="text-neutral-300">•</span>
-              <Link href="/terms" className="hover:text-pink-600">
+              <Link href="/terms" className="hover:text-blue-600">
                 Terms & Conditions
               </Link>
             </div>
@@ -132,9 +139,9 @@ function FooterNavLink({
     <li>
       <Link
         href={href}
-        className="group inline-flex items-center gap-2 text-neutral-700 hover:text-pink-600"
+        className="group inline-flex items-center gap-2 text-neutral-700 hover:text-blue-600"
       >
-        <span className="grid h-5 w-5 place-items-center rounded bg-neutral-100 text-neutral-500 transition group-hover:bg-pink-50 group-hover:text-pink-600">
+        <span className="grid h-5 w-5 place-items-center rounded bg-neutral-100 text-neutral-500 transition group-hover:bg-blue-50 group-hover:text-blue-600">
           <ArrowRight className="h-3.5 w-3.5" />
         </span>
         <span>{children}</span>
@@ -174,7 +181,7 @@ function SocialIcon({
       target="_blank"
       href={href}
       aria-label={label}
-      className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-neutral-100 text-neutral-700 ring-1 ring-transparent transition hover:bg-pink-50 hover:text-pink-600 hover:ring-pink-200"
+      className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-neutral-100 text-neutral-700 ring-1 ring-transparent transition hover:bg-blue-50 hover:text-blue-600 hover:ring-blue-200"
     >
       {children}
     </Link>

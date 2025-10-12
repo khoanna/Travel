@@ -18,7 +18,7 @@ export default function TourCard({ tour }: { tour: TourDetail }) {
         />
 
         {/* Tag */}
-        <span className="absolute left-4 top-4 rounded-full bg-pink-600 px-3 py-1 text-xs font-semibold text-white shadow">
+        <span className="absolute left-4 top-4 rounded-full bg-blue-600 px-3 py-1 text-xs font-semibold text-white shadow">
           {tour.type[0]}
         </span>
 
@@ -47,7 +47,7 @@ export default function TourCard({ tour }: { tour: TourDetail }) {
 
           <Link
             href={`/tour/${tour.id}`}
-            className="inline-flex items-center gap-2 rounded-full border-2 border-pink-200 bg-white/90 px-5 py-2 font-semibold text-neutral-900 backdrop-blur transition-colors hover:border-pink-500 hover:bg-pink-50"
+            className="inline-flex items-center gap-2 rounded-full border-2 border-blue-200 bg-white/90 px-5 py-2 font-semibold text-neutral-900 backdrop-blur transition-colors hover:border-blue-500 hover:bg-blue-50"
           >
             View Tour <ArrowRight className="h-4 w-4" />
           </Link>

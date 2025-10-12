@@ -72,7 +72,7 @@ export default function TourDetail({ tour }: { tour: TourDetail }) {
                         <ul className="grid grid-cols-1 gap-6 md:grid-cols-2">
                             {tour.special.map((s, i) => (
                                 <li key={i} className="flex gap-2 text-neutral-700">
-                                    <CheckCircle2 className="mt-1 h-5 w-5 text-pink-600" />
+                                    <CheckCircle2 className="mt-1 h-5 w-5 text-blue-600" />
                                     <span className="leading-7 w-9/12">{s}</span>
                                 </li>
                             ))}
@@ -199,10 +199,10 @@ function PriceCard({
                 </ul>
 
                 <div className="mt-5 flex flex-col gap-3">
-                    <button className="inline-flex items-center justify-center gap-2 rounded-full bg-neutral-900 px-5 py-3 font-semibold text-white hover:opacity-90">
+                    <button className="inline-flex cursor-pointer items-center justify-center gap-2 rounded-full bg-red-500 px-5 py-3 font-semibold text-white hover:opacity-90">
                         Send My Inquiry <SendHorizontal className="h-4 w-4" />
                     </button>
-                    <button className="inline-flex items-center justify-center gap-2 rounded-full bg-pink-600 px-5 py-3 font-semibold text-white hover:bg-pink-700">
+                    <button className="inline-flex items-center cursor-pointer justify-center gap-2 rounded-full bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-700">
                         Book Now <PhoneCall className="h-4 w-4" />
                     </button>
                 </div>
@@ -215,7 +215,7 @@ function PriceCard({
 
                 <ul className="mt-5 space-y-4 text-[15px] leading-7 text-neutral-800">
                     <li className="flex items-start gap-3">
-                        <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-pink-600 text-white">
+                        <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-blue-600 text-white">
                             {/* dùng lucide-react */}
                             <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="3">
                                 <path d="M20 6 9 17l-5-5" />
@@ -225,7 +225,7 @@ function PriceCard({
                     </li>
 
                     <li className="flex items-start gap-3">
-                        <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-pink-600 text-white">
+                        <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-blue-600 text-white">
                             <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="3">
                                 <path d="M20 6 9 17l-5-5" />
                             </svg>
@@ -234,7 +234,7 @@ function PriceCard({
                     </li>
 
                     <li className="flex items-start gap-3">
-                        <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-pink-600 text-white">
+                        <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-blue-600 text-white">
                             <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="3">
                                 <path d="M20 6 9 17l-5-5" />
                             </svg>
@@ -251,7 +251,7 @@ function PriceCard({
 function SectionCard({ title, children }: { title: string; children: React.ReactNode }) {
     return (
         <div className="mb-8 rounded-3xl bg-white p-6 ring-1 ring-neutral-200 shadow-sm">
-            <h3 className="mb-4 text-2xl font-extrabold text-pink-600">{title}</h3>
+            <h3 className="mb-4 text-2xl font-extrabold text-blue-600">{title}</h3>
             {children}
         </div>
     );
@@ -289,7 +289,7 @@ function AccordionGroup({
     return (
         <div className="mb-10 rounded-3xl bg-white p-4 ring-1 ring-neutral-200 shadow-sm md:p-6">
             <div className="mb-4 flex items-center justify-between">
-                <h3 className="text-2xl font-extrabold text-pink-600">{title}</h3>
+                <h3 className="text-2xl font-extrabold text-blue-600">{title}</h3>
             </div>
 
             <div className="space-y-4">
@@ -358,14 +358,14 @@ function AccordionRow({
 
     return (
         <div
-            className={`rounded-2xl border transition-colors ${isOpen ? "border-pink-200 bg-pink-50/40" : "border-neutral-200 bg-white"
+            className={`rounded-2xl border transition-colors ${isOpen ? "border-blue-200 bg-blue-50/40" : "border-neutral-200 bg-white"
                 }`}
         >
             <button
                 onClick={onToggle}
                 className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left"
             >
-                <span className={`text-lg font-semibold ${isOpen ? "text-pink-600" : "text-neutral-900"}`}>
+                <span className={`text-lg font-semibold ${isOpen ? "text-blue-600" : "text-neutral-900"}`}>
                     {label}
                 </span>
                 <span
