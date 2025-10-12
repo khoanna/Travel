@@ -59,7 +59,7 @@ export default function Navbar() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 md:px-10">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold text-pink-600">
-          <Image src="/logo.png" alt="Velogo" width={120} height={40} />
+          <Image src="/Logo.png" alt="Velogo" width={120} height={40} />
         </Link>
 
         {/* Desktop Nav */}
@@ -303,7 +303,7 @@ function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
       role="dialog"
     >
       <div className="flex items-center justify-between bg-pink-300 px-6 py-2 text-white">
-        <Image src="/logo.png" alt="Velogo" width={120} height={40} />
+        <Image src="/Logo.png" alt="Velogo" width={120} height={40} />
         <button aria-label="Close menu" onClick={onClose}>
           <X className="h-6 w-6" />
         </button>
