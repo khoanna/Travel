@@ -18,6 +18,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay, EffectCoverflow } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import BookingModal from "../BookForm";
 
 type TourDetail = {
     id: number;
@@ -88,6 +89,7 @@ export default function TourDetail({ tour }: { tour: TourDetail }) {
                         price={tour.price}
                         duration={tour.duration}
                         destinations={tour.destination}
+                        tour={tour.title}
                     />
                 </aside>
             </div>
@@ -95,15 +97,12 @@ export default function TourDetail({ tour }: { tour: TourDetail }) {
     );
 }
 
-/* ----------------------------------------------------------------------------
- * GALLERY
- * --------------------------------------------------------------------------*/
 function Gallery({ images }: { images: string[] }) {
     return (
         <div className="relative mx-auto max-w-7xl px-4 md:px-6">
             {/* fade mép cho sang */}
-            <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-8 bg-gradient-to-r from-white to-transparent md:w-10" />
-            <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-8 bg-gradient-to-l from-white to-transparent md:w-10" />
+            <div className="pointer-events-none absolute left-0 top-0 z-[5] h-full w-8 bg-gradient-to-r from-white to-transparent md:w-10" />
+            <div className="pointer-events-none absolute right-0 top-0 z-[5] h-full w-8 bg-gradient-to-l from-white to-transparent md:w-10" />
 
             <Swiper
                 modules={[Navigation, Pagination, Autoplay, EffectCoverflow]}
@@ -143,13 +142,13 @@ function Gallery({ images }: { images: string[] }) {
             </Swiper>
 
             <button
-                className="tourGallery-prev cursor-pointer absolute left-1 md:left-2 top-1/2 -translate-y-1/2 z-20 rounded-full bg-white p-2 text-neutral-800 shadow hover:bg-neutral-50"
+                className="tourGallery-prev cursor-pointer absolute left-1 md:left-2 top-1/2 -translate-y-1/2 z-[10] rounded-full bg-white p-2 text-neutral-800 shadow hover:bg-neutral-50"
                 aria-label="Previous"
             >
                 <ChevronLeft className="h-5 w-5" />
             </button>
             <button
-                className="tourGallery-next cursor-pointer absolute right-1 md:right-2 top-1/2 -translate-y-1/2 z-20 rounded-full bg-white p-2 text-neutral-800 shadow hover:bg-neutral-50"
+                className="tourGallery-next cursor-pointer absolute right-1 md:right-2 top-1/2 -translate-y-1/2 z-[10] rounded-full bg-white p-2 text-neutral-800 shadow hover:bg-neutral-50"
                 aria-label="Next"
             >
                 <ChevronRight className="h-5 w-5" />
@@ -160,20 +159,26 @@ function Gallery({ images }: { images: string[] }) {
     );
 }
 
-/* ----------------------------------------------------------------------------
- * PRICE CARD + SECTION WRAPPER
- * --------------------------------------------------------------------------*/
 function PriceCard({
     price,
     duration,
     destinations,
+    tour
 }: {
     price: number;
     duration: number;
     destinations: string[];
+    tour: string;
 }) {
+    const [open, setOpen] = useState(false);
+
     return (
         <div className="sticky top-20 space-y-4">
+            <BookingModal
+                open={open}
+                onClose={() => setOpen(false)}
+                tour={tour}
+            />
             {/* Price + CTA */}
             <div className="rounded-3xl bg-white p-6 ring-1 ring-neutral-200 shadow-sm">
                 <p className="text-sm text-neutral-600">Starting from</p>
@@ -199,11 +204,8 @@ function PriceCard({
                 </ul>
 
                 <div className="mt-5 flex flex-col gap-3">
-                    <button className="inline-flex cursor-pointer items-center justify-center gap-2 rounded-full bg-red-500 px-5 py-3 font-semibold text-white hover:opacity-90">
+                    <button onClick={() => setOpen(true)} className="inline-flex cursor-pointer items-center justify-center gap-2 rounded-full bg-red-500 px-5 py-3 font-semibold text-white hover:opacity-90">
                         Send My Inquiry <SendHorizontal className="h-4 w-4" />
-                    </button>
-                    <button className="inline-flex items-center cursor-pointer justify-center gap-2 rounded-full bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-700">
-                        Book Now <PhoneCall className="h-4 w-4" />
                     </button>
                 </div>
             </div>
@@ -244,7 +246,7 @@ function PriceCard({
                 </ul>
 
             </div>
-        </div>
+        </div >
     );
 }
 

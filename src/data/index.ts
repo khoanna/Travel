@@ -907,7 +907,1192 @@ After lunch, we will ride you back to your hotel stay or you can get off anywher
             }
         ],
         accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
-    }
+    },
+    {
+        id: 13,
+        img: ["/HCM/1.jpg", "/HCM/2.jpg", "/HCM/3.jpg", "/HCM/4.jpg", "/HCM/5.jpg"],
+        title: "3 Days Explore Cu Chi Tunnels and Mekong Delta – Private",
+        destination: ["Ho Chi Minh City - Mekong Delta"],
+        duration: 3,
+        type: ["Culture & History Tours"],
+        price: 195,
+        general: "Experience the best of Vietnam in our short trip to Mekong Delta from Ho Chi Minh City in 3 days. On Day 1, explore the historic Cu Chi Tunnels in the morning. Day 2 takes you from Ho Chi Minh City to Cai Be and Can Tho, immersing you in local culture. Day 3 offers a glimpse of the vibrant Cai Rang floating market before returning to Ho Chi Minh City. A perfect blend of history, culture, and adventure awaits you.",
+        special: [
+            "Delve into Cu Chi Tunnels, an intricate underground network",
+            "Witness wartime artifacts and learn about guerrilla warfare",
+            "Embark on a scenic journey to Cai Be for a boat excursion",
+            "Explore the vibrant Cai Be Floating Market and local industries",
+            "Rise early to witness the bustling Cai Rang Floating Market",
+            "Immerse in the lively market atmosphere and local culture",
+        ],
+        details: [
+            {
+                title: "DAY TRIP TO CU CHI TUNNELS",
+                description: `07:30 – 08:00 AM: Our guide and driver will pick you up at your hotel in Ho Chi Minh City and take you on a bus ride to Cu Chi.
 
+It takes about an hour and a half.
+
+Before we explore Cu Chi Tunnels, you’ll watch a short video about how they were built and how people lived in them during the war. Then you’ll have time to walk around and see different parts of the tunnels, including kitchens, bedrooms, weapon factories, hospitals, and command centers. There are also hidden trap doors and dangerous traps that were used during the war. We’ll have some tea and cassava (food that people ate during the war) to try.
+
+Finally, we’ll head back to Ho Chi Minh City.
+
+02:30 PM: Arrive at your hotel in Ho Chi Minh City.`
+            },
+            {
+                title: "HO CHI MINH CITY – CAI BE – CAN THO",
+                description: `07:30 AM: Our guide and driver will pick you up at your hotel in Ho Chi Minh City and head to Cai Be. Once we arrive, we’ll take a boat to what’s left of a famous old floating market on the Tien River. Here, you’ll learn about how locals used to trade, which has changed a lot with modern transportation and farming. You’ll see how diverse the area is and how many fruit orchards there are, making it a major fruit producer in the Mekong Delta.
+
+We’ll wander through small villages, where you’ll see a beautiful old house and learn about local culture. We’ll stop by a family business that makes coconut candy and rice popcorn. Enjoy some tasty fresh fruit and listen to the relaxing sounds of traditional Southern Vietnamese music, an important part of the Mekong Delta’s culture.
+
+Next, we’ll take a fun paddle through small canals. This is a great chance to relax and take in the peaceful atmosphere of the Upper Mekong Delta. We’ll reach Tan Phong Island and enjoy the quietness of nature.
+
+At lunchtime, you’ll not only have a delicious meal but also learn how to cook some Vietnamese dishes with the locals. The food will be prepared by you and served in a lovely garden setting.
+
+After lunch, we’ll bike through village paths and orchards. You’ll meet the locals and learn about their daily lives in the Mekong Delta. We’ll also visit Ba Kiet’s old house.
+
+Finally, we’ll take a boat back to Cai Be, where you’ll board the bus to Can Tho City.
+
+Dinner on your own. Overnight at a hotel in Can Tho.`
+            },
+            {
+                title: "CAN THO – CAI RANG FLOATING MARKET – HO CHI MINH CITY",
+                description: `After breakfast at the hotel, we’ll enjoy a relaxing boat ride through the beautiful branches of the Lower Mekong River (Bassac River). We’ll then visit Cai Rang Floating Market, the busiest and most exciting market in the area.
+
+Next, we’ll take a walking tour of a local noodle factory and visit Munir Ansay Pagoda, a Khmer temple known for its unusual design. We’ll then take a boat to the Con Son tourist area, where we’ll visit a fruit orchard and enjoy some fresh seasonal fruits.
+
+After lunch, we’ll head back to Ho Chi Minh City. End of services.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 14,
+        img: ["/HCM/6.jpg", "/HCM/7.jpg", "/HCM/8.jpg", "/HCM/9.jpg", "/HCM/10.jpg", "/HCM/11.jpg"],
+        title: "From Ho Chi Minh City: Cai Be – Tan Phong Island – Private",
+        destination: ["Mekong Delta - Ho Chi Minh City"],
+        duration: 1,
+        type: ["Culture & History Tours"],
+        price: 36,
+        general: "The boat ride, fruit tasting, family businesses, village exploration, and architectural discovery converge to offer a holistic and authentic experience, celebrating the heritage and vitality of the Tien River region.",
+        special: [
+            "Having a boat ride to the remaining site of a wholesale floating market on Tien River",
+            "Tasting fresh fruits while enjoying Vietnamese traditional folk music",
+            "Visiting distinctive family businesses where the locals make coconut candy and crispy rice popcorn mills",
+            "Deeply exploring the local village on foot and through handlebars",
+            "Approaching features of the typical, traditional Vietnamese architectural styles from an ancient house",
+        ],
+        details: [
+            {
+                title: "From Ho Chi Minh City: Cai Be – Tan Phong Island – Private",
+                description: `07:00 AM: Our guide and driver will pick you up at your hotel.
+
+07:30 AM: Set off for Cai Be by car/van using the Trung Luong Expressway.
+
+Upon reaching Cai Be, we’ll hop on a boat to visit the remains of a once-famous wholesale floating market on the Tien River. This place offers insight into the local trading habits that have evolved with the advent of modern society, marked by terrestrial transportation and advanced agricultural techniques.
+
+Next, we’ll explore small villages, admiring ancient houses and immersing ourselves in the indigenous culture.
+
+Then you’ll make a brief stop at a family-run business where locals produce coconut fudges and crispy rice popcorn. Here, you’ll enjoy delicious fresh fruit and listen to the melodic strains of Southern Vietnamese folk music, deeply intertwined with the life and culture of the Mekong Delta people.
+
+Paddle through small canals, you will have a chance to take in the sights, unwind, and soak up the enchanting atmosphere of the Upper Mekong Delta.
+
+Lunchtime not only offers delectable food but also an opportunity to connect with locals as you learn to prepare Vietnamese specialties yourselves. The meal is cooked and served in the heart of a local garden.
+
+Afterwards, you’ll cycle along village paths through orchards, interacting with local islanders to gain further insight into daily life in the Mekong Delta.
+
+You’ll also visit Ba Kiet’s ancient house.
+
+06:00 PM: Finally, we’ll return to Cai Be by boat and board our bus for the journey back to Ho Chi Minh City.
+
+We will ensure to drop you off at your hotel. End of tour.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 15,
+        img: ["/HCM/11.jpg", "/HCM/2.jpg", "/HCM/3.jpg", "/HCM/1.jpg"],
+        title: "Cu Chi Tunnels & Mekong Delta Private Day Trip",
+        destination: ["Mekong Delta - Ho Chi Minh City"],
+        duration: 1,
+        type: ["Culture & History Tours"],
+        price: 61,
+        general: "Uncover the rich history and vibrant culture of Vietnam on our Cu Chi Tunnels – Mekong Delta Tour. This immersive journey takes you to the iconic Cu Chi Tunnels, offering insights into the Vietnam War. Then, venture into the picturesque Mekong Delta, where you’ll explore traditional villages, lush landscapes, and experience authentic Vietnamese life. A perfect blend of history and natural beauty, this private tour promises a memorable day of adventure and exploration.",
+        special: [
+            "Explore the historic Cu Chi Tunnels and gain insights into Vietnam’s wartime history",
+            "Embark on a scenic boat trip along the picturesque Tien River",
+            "Cruise through charming small canals on a traditional sampan",
+            "Immerse yourself in the vibrant Mekong Delta, known as the “Rice Bowl” of Vietnam",
+            "Enjoy a private tour, allowing for a personalized and intimate experience",
+        ],
+        details: [
+            {
+                title: "Day Trip to Cu Chi Tunnels – Mekong Delta – Private",
+                description: `06:45 – 07:00 AM: Our guide and driver will pick you up at your hotel in Ho Chi Minh City and take you on a bus ride to Cu Chi.
+
+It takes about an hour and a half.
+
+Before we explore Cu Chi Tunnels, you’ll watch a short video about how they were built and how people lived in them during the war. Then you’ll have time to walk around and see different parts of the tunnels, including kitchens, bedrooms, weapon factories, hospitals, and command centers. There are also hidden trap doors and dangerous traps that were used during the war. We’ll have some tea and cassava (food that people ate during the war) to try.
+
+Next, we’ll have lunch at a local restaurant.
+
+After lunch, we’ll visit My Tho City. We’ll take a boat ride on the Tien River and see four beautiful islands called Dragon, Unicorn, Phoenix, and Tortoise.
+
+We’ll switch to a smaller boat and go through Thoi Son canal. You’ll see the countryside and can take a bike ride around Tan Thach village. We’ll visit a coconut candy shop, eat fresh fruit and honey tea, and listen to Southern Vietnamese folk music.
+
+Finally, we’ll head back to Ho Chi Minh City.
+
+07:00 PM: Arrive at your hotel in Ho Chi Minh City. End of services.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 16,
+        img: ["/HCM/12.jpg", "/HCM/13.jpg", "/HCM/14.jpg", "/HCM/15.jpg"],
+        title: "Ho Chi Minh Cooking Class – Private",
+        destination: ["Ho Chi Minh City"],
+        duration: 1,
+        type: ["Food Tours"],
+        price: 62,
+        general: "Discover the rich flavors and culinary traditions of Vietnam with the Ho Chi Minh Cooking Class Tour – Private Tour. Immerse yourself in the vibrant local food scene of Ho Chi Minh City, as you embark on a personalized and hands-on cooking experience. This private tour offers a unique opportunity to learn the art of Vietnamese cooking in an intimate setting, guided by expert chefs who will unveil the secrets behind the country’s delectable dishes.",
+        special: [
+            "Immerse yourself in the vibrant Ben Thanh Market, selecting fresh, local ingredients for a hands-on cooking experience",
+            "Join in the practical cooking class",
+        ],
+        details: [
+            {
+                title: "Ho Chi Minh Cooking Class – Private",
+                description: `08:45 AM: Our tour guide will meet you at Ben Thanh Market to kick off the Wet Market Tour.
+
+During this guided tour of Saigon’s famous Ben Thanh Market, you’ll gain insight into how we procure meats and vegetables on a daily basis. You’ll have the chance to experience the lively atmosphere of these bustling wet markets, which are an integral part of Vietnamese daily life.
+
+Next, you’ll be taken to our kitchen where chefs will lead you through preparing a traditional Vietnamese four-course meal.
+
+Each participant will have their own private cooking station and all the necessary ingredients to create a meticulously crafted menu of classic Vietnamese dishes.
+
+Under the guidance of our local head chef, you’ll learn about the flavors, spices, and cooking techniques that define Vietnam’s rich culinary heritage.
+
+You’ll have the opportunity to try your hand at making four iconic Vietnamese dishes, such as goi cuon (spring rolls).
+
+Finally, you’ll get to celebrate your culinary efforts by tasting the dishes you’ve created.
+
+After cooking class, you will be given a Vietnamese cookbook with over 25 recipes.
+
+We will take you back to your hotel. End of tour.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 17,
+        img: ["/HCM/15.jpg", "/HCM/13.jpg", "/HCM/14.jpg", "/HCM/12.jpg"],
+        title: "Ho Chi Minh Half Day Shopping Tour – Private",
+        destination: ["Ho Chi Minh City"],
+        duration: 1,
+        type: ["Shopping Tours"],
+        price: 17,
+        general: "This half-day shopping tour beautifully blends the timeless art of traditional lacquerware with the vibrant energy of Ho Chi Minh City’s top shopping spots and bustling markets. It’s a fun, authentic journey that lets you experience both the city’s rich heritage and its modern charm.",
+        special: [
+            "Discover the ancient art of traditional lacquerware",
+            "Explore the modern shopping experience at Vincom Center",
+            "Find great deals and see export goods preparation at Saigon Square",
+            "Immerse yourself in the vibrant stalls and flavors of Ben Thanh Market",
+        ],
+        details: [
+            {
+                title: "Ho Chi Minh Half Day Shopping Tour – Private",
+                description: `08:30 AM: Our guide and driver will pick you up from your hotel to take you on a half-day shopping tour.
+
+Your day starts with a visit to a local lacquerware shop, where you’ll discover the ancient artistry behind this craft and learn about the intricate manufacturing process.
+
+Next, you’ll explore the rapid development of Ho Chi Minh City as one of Asia’s most modern and vibrant cities by exploring Vincom Center Shopping Mall, housing some of the city’s largest brands.
+
+Followed by Saigon Square, where you can observe goods being prepared for export and find great deals on various items.
+
+Finally, you’ll head to the renowned Ben Thanh Market, renowned for its wide array of stalls offering both traditional and modern goods, along with numerous food options.
+
+Note: Costs when shopping for items are paid by yourself
+
+12:30 PM: We’ll take you back to your hotel. End of tour.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 18,
+        img: ["/HCM/14.jpg", "/HCM/13.jpg", "/HCM/11.jpg", "/HCM/12.jpg"],
+        title: "Ho Chi Minh Walking Street Food Tour – Private",
+        destination: ["Ho Chi Minh City"],
+        duration: 1,
+        type: ["Food Tours", "Walking Tours"],
+        price: 45,
+        general: "Embark on an unforgettable evening street food adventure through Saigon’s hidden culinary corners, led by a passionate local guide. Delight in iconic Vietnamese flavors—from crispy, herb-filled “Banh Xeo” to fragrant “Bo La Lot” rich pork noodle soup “Banh Canh” and expertly crafted pan-fried rice cakes “Bot Chien” Conclude your journey at the vibrant night flower market, savoring refreshing coconut or avocado ice cream before a comfortable ride back to your hotel. This intimate tour promises a mouthwatering dive into Saigon’s authentic and bustling food scene.",
+        special: [
+            "Explore Saigon’s lively night scene with a friendly local guide who knows all the best street food spots",
+            "Taste delicious Vietnamese favorites",
+            "Step off the tourist path and enjoy real, authentic flavors in vibrant neighborhood markets",
+            "End your night at the colorful flower market with a cool treat of coconut or avocado ice cream",
+        ],
+        details: [
+            {
+                title: "Ho Chi Minh Walking Street Food Tour – Private",
+                description: `05:30 PM: Our local street food guide will pick you up from your accommodation via taxi or Grab car. Leave the touristy areas behind as you embark on a culinary adventure to the non-tourist districts, known as a street food paradise.
+
+Along the way, indulge in “Bánh Xèo” and “Bánh Khọt” – traditional Central and Southern Vietnamese rice pancakes loaded with fresh Vietnamese vegetables and herbs.
+
+Meander along a street famed for its barbecue seafood vendors and head to a local-favorite eatery to taste the finest “Bò Lá Lốt” (Beef in Wild Betel Leaves) or the specialty “Bánh Canh” – a special Pork Noodle Soup or Thick Noodles Soup with Grilled Chopped Fish.
+
+Your mouth-watering journey continues as you navigate the alleys of the street food district, sampling delectable “Bột Chiên” (Pan-Fried Rice Cakes with egg and spring onions) expertly cooked by a local chef with over 25 years of experience.
+
+Alternatively, enjoy Steamed Rice Rolls “Bánh Cuốn” – thin sheets of steamed rice batter filled with ground pork and minced wood ear mushrooms. These rice rolls are topped with scallion oil, crispy fried shallots, and served with fresh cucumbers, lettuce, Vietnamese herbs, blanched bean sprouts, and slices of Vietnamese sausage (Chả Lụa).
+
+Conclude your Saigon street food walking tour at the night flower market and street food paradise, indulging in a delightful dessert such as coconut ice cream or avocado ice cream.
+
+After that, our guide will take you back to your hotel. End of tour.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 19,
+        img: ["/HoiAn/1.jpg", "/HoiAn/2.jpg", "/HoiAn/3.jpg", "/HoiAn/4.jpg"],
+        title: "Cam Thanh Eco Tour – Da Nang Sunset Tour – Private",
+        destination: ["Da Nang", "Hoi An"],
+        duration: 1,
+        type: ["Eco Tours", "Sunset Tours"],
+        price: 43,
+        general: "Discover the natural and cultural wonders of Vietnam in a single day with our exciting tour itinerary. Start your journey by exploring the enchanting Marble Mountains, a cluster of five limestone hills filled with caves, pagodas, and panoramic views. Next, venture to the Monkey Mountains, where you can interact with playful macaques while enjoying breathtaking scenery. Finally, immerse yourself in the serene beauty of Cam Thanh Eco Tour, where you’ll paddle through lush water coconut palm forests, witness traditional fishing techniques, and savor local cuisine. This one-day tour promises a diverse and memorable adventure that captures the essence of Vietnam’s rich heritage and natural beauty.",
+        special: [
+            "Explore the stunning Marble Mountains, known for their natural beauty and unique marble formations",
+            "Visit Monkey Mountains and encounter playful monkeys in their natural habitat",
+            "Embark on a serene Cam Thanh Eco Tour, immersing yourself in the beauty of the Vietnamese countryside",
+            "Paddle through picturesque water coconut palm forests in traditional bamboo basket boats",
+            "Discover local culture and history with visits to traditional villages and workshops",
+            "Enjoy a delicious Vietnamese lunch with authentic flavors",
+        ],
+        details: [
+            {
+                title: "Cam Thanh Eco Tour – Da Nang Sunset Tour – Private",
+                description: `09:00 AM: Our guide and driver will pick you up from your hotel lobby and transport you to Cam Thanh fishing village.
+
+09:30 AM: Arrive at Cam Thanh village, where you’ll meet local fishermen and immerse yourself in their daily lives.
+
+10:00 AM: Take a bamboo basket boat on the Cam Thanh water coconut forest and have a brief introduction to the history there.
+
+11:00 AM: Learn to paddle the unique Vietnamese bamboo basket boat and join in a basket boat race.
+
+Explore the now peaceful coconut waterways of a past war
+Go catch the crabs
+Return fisherman’s house for a welcome drink
+Enjoy Lunch
+01:00 PM: Discover the Marble Mountains, stroll through local stone sculpture factories, and explore the most impressive handicrafts village in Da Nang.
+
+Explore the Marble Mountains by climbing to the top (elevator optional). Admire beautiful pagodas dating back to the 19th century and visit Huyen Khong or Tang Chon caves.
+
+Continue to Am Phu cave, the largest and most fascinating cave.
+
+04:30 PM: Our van will transport you to Monkey Mountain, where you’ll find the largest Lady Buddha statue in Central Vietnam, towering at 67 meters in height. From the top of the Son Tra peninsula, you can admire breathtaking mountain vistas and enjoy romantic sunsets.
+
+06:00 PM: We will take you back to Hoi An and we’ll ensure you’re dropped off at your hotel. End of tour.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 20,
+        img: ["/HoiAn/5.jpg", "/HoiAn/6.jpg", "/HoiAn/7.jpg", "/HoiAn/8.jpg"],
+        title: "Da Nang Morning Tour – Cam Thanh – Hoi An Ancient Town – Private",
+        destination: ["Da Nang", "Hoi An"],
+        duration: 1,
+        type: ["Eco Tours", "Sunset Tours"],
+        price: 45,
+        general: "Explore the best of central Vietnam with our exhilarating half-day tour that takes you through Monkey Mountain, Marble Mountains, Coconut Jungle, and Hoi An City. Immerse yourself in the stunning natural beauty of the region, discover ancient temples and caves, encounter playful monkeys, and delve into the rich history and culture of Hoi An, all in one unforgettable full-day adventure.",
+        special: [
+            "Explore Monkey Mountain and witness stunning panoramic views of the coast",
+            "Visit the Marble Mountains, renowned for their marble and limestone caves",
+            "Immerse in the serene Coconut Jungle and enjoy a boat ride through its waterways",
+            "Discover the charm of Hoi An City, a UNESCO World Heritage site, known for its ancient architecture and lantern-lit streets",
+        ],
+        details: [
+            {
+                title: "Da Nang Morning Tour – Cam Thanh – Hoi An Ancient Town – Private",
+                description: `Depart from Hoi An: 07:30 – 08:00 AM
+
+Depart from Da Nang: 08:00 – 08:30 AM
+
+07:30 – 08:00 AM: We’ll pick you up at your hotel in Hoi An and transfer to Da Nang City.
+
+08:30 AM: Our car will take you to Monkey Mountain. There, you’ll see a massive Lady Buddha statue surrounded by scenic mountains and a large bonsai garden. As you stroll through this heavenly garden, you’ll be captivated by its enchanting stories and the gentle breeze.
+
+09:30 – 10:00 AM: Next, you’ll be amazed by the Marble Mountains and Am Phu Cave. Explore stunning caves and historic Buddhist pagodas, take your time to learn about different religions, and gain insight into the contrasts between Buddhism and Hinduism.
+
+Then we’ll visit the Stone Carving Village of Non Nuoc to admire beautiful stone art and purchase some lovely souvenirs.
+
+11:30 AM – 12:00 PM: Enjoy some local cuisine at a local restaurant before visiting Cam Thanh Coconut Jungle.
+
+01:00 PM: Continue your adventure at Cam Thanh Coconut Jungle and immerse yourself in the serene, lush surroundings of the Coconut Forest.
+
+Experience hands-on fishing with round nets and cast nets, and enjoy the unique activity of rowing a basket boat.
+
+02:15 PM: Next, we will transfer to Hoi An Ancient Town to explore Phuc Kien Pagoda, Phung Hung Ancient House, the Japanese Bridge, and the Museum.
+
+You can also enjoy shopping at Hoi An Central Market.
+
+Take a leisurely stroll around the historic old town, explore the night market and soak in the atmosphere of Hoi An.
+
+Have dinner at the local restaurant.
+
+06:00 PM: Have a great time with a boat ride on the Hoai River and release floating lanterns to wish for good luck for you and your family.
+
+06:30 PM: We will ensure you’re dropped off at your hotel. End of tour.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 21,
+        img: ["/HoiAn/3.jpg", "/HoiAn/4.jpg", "/HoiAn/5.jpg", "/HoiAn/6.jpg", "/HoiAn/7.jpg", "/HoiAn/8.jpg"],
+        title: "Da Nang Morning Tour – Hoi An City Tour – Private",
+        destination: ["Da Nang"],
+        duration: 1,
+        type: ["Culture & History Tours", "City Tours"],
+        price: 51,
+        general: "Embark on a captivating one-day adventure through Vietnam that includes visits to the renowned Marble Mountains, where you can explore ancient caves and temples, and the delightful Monkey Mountains to interact with its playful inhabitants. Dive into the rich history and architecture of Hoi An city, a UNESCO World Heritage site, before setting off on a tranquil boat journey along a picturesque river. To conclude this remarkable day, partake in the enchanting tradition of releasing flower lanterns into the water, creating an unforgettable and culturally immersive experience.",
+        special: [
+            "Explore the captivating Marble Mountains, a cluster of five limestone hills with ancient caves and pagodas",
+            "Witness the playful monkeys at the Monkey Mountains and enjoy scenic views of the coastline",
+            "Discover the charm of Hoi An city with its well-preserved ancient architecture and bustling markets",
+            "Embark on a serene boat ride along the Hoai River, immersing in the picturesque landscapes",
+            "Participate in the enchanting tradition of dropping flower lanterns into the river, a symbol of good luck and wishes in Hoi An",
+        ],
+        details: [
+            {
+                title: "Da Nang Morning Tour – Hoi An City Tour – Private",
+                description: `07:30 – 08:00 AM: Our tour guide and driver will pick you up at your hotel in Hoi An and transfer to Da Nang City.
+
+08:30 AM: Our car will take you to Monkey Mountain. There, you’ll see a massive Lady Buddha statue surrounded by scenic mountains and a large bonsai garden. As you stroll through this heavenly garden, you’ll be captivated by its enchanting stories and the gentle breeze.
+
+09:30 – 10:00 AM: Discover the Marble Mountains, stroll through local stone sculpture factories, and explore the most impressive handicrafts village in Da Nang.
+
+Explore the Marble Mountains by climbing to the top (elevator optional). Admire beautiful pagodas dating back to the 19th century and visit Huyen Khong or Tang Chon caves.
+
+Continue to Am Phu cave, the largest and most fascinating cave.
+
+11:45 AM: Have lunch at a local restaurant with local and authentic Vietnamese cuisines.
+
+01:00 PM: We will take you back to your hotel and Hoi An. You can take a rest.
+
+03:00 PM: Our guide will meet you at our hotel in Hoi An center and start the Hoi An City Tour. You can explore Phuc Kien Pagoda, Phung Hung Ancient House, the Japanese Bridge, and the Museum.
+
+You can also enjoy shopping at Hoi An Central Market.
+
+Take a leisurely stroll around the historic old town, explore the night market and soak in the atmosphere of Hoi An.
+
+06:45 PM: Have a great time with a boat ride on the Hoai River and release floating lanterns to wish for good luck for you and your family.
+
+07:15 PM: We will ensure you’re dropped off at your hotel. End of tour.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 22,
+        img: ["/Mekong/1.jpg", "/Mekong/2.jpg", "/Mekong/3.jpg", "/Mekong/4.jpg"],
+        title: "2 Days Explore Mekong Delta – Private",
+        destination: ["Mekong Delta"],
+        duration: 2,
+        type: ["Culture & History Tours", "City Tours"],
+        price: 155,
+        general: "Discover the enchanting beauty of Vietnam’s Mekong Delta on a captivating two-day journey. Day 1 unfolds in Ho Chi Minh City, guiding you to the scenic Ben Tre for an exploration of local culture and waterways. Continue to Can Tho for an overnight stay. Day 2 commences with the vibrant Can Tho floating market and concludes back in Ho Chi Minh City after a delightful boat trip. Savor a blend of Vietnamese flavors with included breakfast and lunch, ensuring this tour is an immersive cultural and culinary experience.",
+        special: [
+            "Explore Cai Rang Floating Market, one of the region’s largest and liveliest",
+            "Taste fresh pineapple on a local trading boat",
+            "Witness the rice noodle production process, from milling to cultivation",
+            "Visit Ba Cong Fruit Orchard, discovering diverse fruit trees and enjoying delicious fruits",
+            "Experience the adventure of crossing the Monkey Bridge",
+        ],
+        details: [
+            {
+                title: "HO CHI MINH CITY – MY THO – CAN THO",
+                description: `08:00 AM: Our guide and driver will pick you up at your hotel in Ho Chi Minh City and head to the Mekong Delta in a minivan or bus. We’ll drive for about an hour and a half, passing by lush green rice fields, before reaching the charming countryside town of My Tho.
+
+From there, we’ll hop on a motorboat and cruise along the Tien River to Tortoise Islet. Along the way, we’ll see the fishing port, places where they build boats, and the Dragon, Phoenix, and Unicorn Islets.
+
+We’ll then walk into a village and visit a local fruit orchard, where you can try some delicious tropical fruits while listening to traditional Southern Vietnamese music played by the locals. You can also join in their everyday activities and enjoy the peaceful atmosphere of this beautiful natural area. We’ll even visit a bee farm and see some pythons.
+
+Lunch will be served right in the middle of the orchard.
+
+Next, our boat trip will take us through the Bao Dinh canal into Ben Tre province, also known as “the land of coconuts.” We’ll see a special way of farming called “Garden – Pond – Cage” before stopping at a shop that makes coconut candy.
+
+After that, we’ll enjoy a relaxing rowboat ride on a small canal shaded by water coconut trees. Once we’re done with the boat ride, we’ll take a bike ride around the island before getting back in the car.
+
+05:00 PM: Arrive in Can Tho City, where you can check in your hotel.`
+            },
+            {
+                title: "CAN THO – HO CHI MINH CITY",
+                description: `07:00 AM: After breakfast at your hotel, we’ll take a boat ride on the Can Tho River to see the beautiful scenery and how locals live on both sides of the river. You’ll see a floating market, how they make rice noodles and a fruit orchard. The boat will then take us back to the station.
+
+After relaxing for a bit, we’ll have lunch in Can Tho. Then, we’ll drive about 180 kilometers back to Ho Chi Minh City.
+
+04:00 PM: Arrive at your hotel in Ho Chi Minh City. End of services.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 23,
+        img: ["/Mekong/5.jpg", "/Mekong/6.jpg", "/Mekong/7.jpg", "/Mekong/8.jpg"],
+        title: "Day Trip to Mekong Delta – Private",
+        destination: ["Mekong Delta"],
+        duration: 1,
+        type: ["Culture Tours"],
+        price: 51,
+        general: "Embark on a captivating day trip to My Tho in the heart of the Mekong Delta with our Mekong Delta Tours. Experience the essence of this vibrant region as you cruise along the Mekong River, visit traditional villages, savor local cuisine, and explore the lush countryside. This enriching adventure promises an unforgettable glimpse into the cultural richness and natural beauty of the Mekong Delta.",
+        special: [
+            "Explore the serene Vinh Trang Pagoda",
+            "Cruise along the picturesque Mekong River, visiting Dragon, Unicorn, Phoenix, and Tortoise Islands",
+            "Experience the charm of Thoi Son canal on a hand-rowed sampan",
+            "Discover the art of beekeeping at a local honey-bee farm",
+            "Indulge in delightful honey tea and witness the making of coconut candy at a workshop",
+            "Immerse yourself in the traditional culture of Tan Thach village"
+        ],
+        details: [
+            {
+                title: "Day Trip to Mekong Delta – Private",
+                description: `07:30 – 08:00 AM: Our guide and driver will pick you up at your hotel in Ho Chi Minh City and head to My Tho, a town by the Mekong River. Once there, we’ll visit Vinh Trang Pagoda, which was built in the late 1800s. Then, we’ll take a boat ride down the river, passing four beautiful islands: Dragon, Unicorn, Phoenix, and Tortoise.
+
+We’ll stop at Unicorn Island to walk around, see the orchards, enjoy local fruits, and listen to traditional folk song music. We’ll also visit a fruit farm.
+
+Next, we’ll ride in a small rowboat through Thoi Son canal and enjoy the beautiful countryside. We’ll visit a family-run business, a honeybee farm, and a place where they make coconut candy.
+
+Lunch will be at a local restaurant. You’ll then have some time to relax.
+
+In the afternoon, you can bike around Tan Thach village and meet the locals. If you don’t want to bike, you can relax in a hammock and enjoy the breeze. After that, we’ll head back to Ho Chi Minh City.
+
+05:30 PM: Arrive at your hotel in Ho Chi Minh City. End of services.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 24,
+        img: ["/Mekong/9.jpg", "/Mekong/10.jpg", "/Mekong/11.jpg", "/Mekong/12.jpg"],
+        title: "Mekong Delta Escapade: Ben Tre – Tra Vinh – Private",
+        destination: ["Mekong Delta"],
+        duration: 2,
+        type: ["Culture Tours"],
+        price: 165,
+        general: "Discover the charm of Vietnam’s Mekong Delta on this 2-day cultural journey from Ho Chi Minh City. Cruise through Ben Tre’s scenic waterways, explore traditional coconut workshops, and enjoy a peaceful village ride on a xe lôi. In Tra Vinh, immerse yourself in local life at Con Chim Island, cycle through serene landscapes, and experience the rich Khmer heritage with visits to ancient pagodas, museums, and craft villages. A perfect blend of nature, culture, and authentic local experiences.",
+        special: [
+            "Connect with locals, experience traditional ways of life in the delta.",
+            "Visit family businesses showcasing a variety of coconut products and intricate woodwork",
+            "Travel to Con Chim island and immerse yourself in the stunning local fauna",
+            "Discover ancient pagodas, delving into the fascinating culture of the Khmer people",
+            "Learn about a local coconut nectar company that produces a sustainable and healthy sweetener from coconut flowers",
+        ],
+        details: [
+            {
+                title: "HO CHI MINH CITY – BEN TRE – TRA VINH",
+                description: `07:00 – 07:15 AM: Our guide and driver will pick you up at your hotel in Ho Chi Minh City and head to Ben Tre.
+
+Once we get to Phong Nam Bridge, we’ll hop on a boat and cruise along the Chet Say River. The cool river breeze and the beautiful tropical islands will get you excited about all the great things we have planned.
+
+We’ll visit different local workshops to see how people use traditional methods to make crafts, dried coconut, brooms from coconut husks, and art from coconut fibers. We’ll then take a ride around the village in a “xe loi” a kind of motorized rickshaw.
+
+We’ll have a tasty and filling lunch at a local house.
+
+Then, we’ll take a relaxing rowboat ride through natural canals, giving you a real feel for how pretty this area is.
+
+Next, we’ll head to Tra Vinh province. We’ll visit the “Con Chim” community tourism site, which was built to fit in with nature, respect local culture, and promote slow tourism. We’ll have some time to bike around Con Chim Island and meet the locals to learn about their daily lives.
+
+Finally, we’ll take the boat back to the dock and check into our hotel for some rest and relaxation.`
+            },
+            {
+                title: "TRA VINH – HO CHI MINH CITY",
+                description: `After breakfast, we’ll visit a village known for making mats, a craft they’ve been perfecting for nearly 100 years. We’ll then explore Khmer culture by visiting Angkorajaborey Pagoda (also known as Ang Pagoda), the Tra Vinh Museum of Khmer Ethnic Culture, and Ba Om Pond. Ang Pagoda is one of 141 Khmer pagodas in Tra Vinh province, and Ba Om Pond is a famous landmark. It’s a large, rectangular pond with clear blue water, covered in lotus flowers and water lilies. There’s a very old tree with unique roots that’s a popular spot for photos.
+
+Next, we’ll visit a company that makes coconut nectar, a traditional local product made from coconut flowers.
+
+We’ll have lunch at a local restaurant before heading back to Ho Chi Minh City.
+
+06:00 PM: Arrive at your hotel in Ho Chi Minh City. End of services.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 25,
+        img: ["/DaNang/1.jpg", "/DaNang/2.jpg", "/DaNang/3.jpg", "/DaNang/4.jpg"],
+        title: "Ba Na Hills – Golden Bridge – Dinner Cruise – Private",
+        destination: ["Da Nang"],
+        duration: 1,
+        type: ["City Tours", "Honeymoon & Romantic Tours"],
+        price: 125,
+        general: "Join us for an extraordinary single-day journey through our private tour. Your day starts at the mesmerizing Ba Na Hills, where you can soak in the stunning scenery and visit the renowned Golden Bridge with its remarkable architecture and breathtaking views. Cap off the day with a delightful dinner on a cruise, where you can savor a gourmet meal while cruising through picturesque waters. This exclusive tour combines the wonders of nature, culture, and cuisine, ensuring an unforgettable day of exploration and relaxation.",
+        special: [
+            "Explore Vong Nguyet hills with breathtaking views",
+            "Visit the stunning Linh Ung Pagoda, a spiritual gem",
+            "Discover the charm of the Old Villas of French colonial era",
+            "Cross the iconic Golden Bridge with its unique architecture",
+            "Indulge in a delectable dinner onboard, featuring a variety of dishes to satisfy your taste buds",
+        ],
+        details: [
+            {
+                title: "Ba Na Hills – Golden Bridge – Dinner Cruise – Private",
+                description: `07:30 AM – 08:00 AM: Our guide and driver will pick you up and transfer you to Ba Na Hills, located just 35km away.
+
+Experience the thrill of riding the Cable Car, which has earned 5 world records, to the Ba Na Hills station. Along the way, stop at the By Night station to visit the Vong Nguyet Hills, Linh Ung Pagoda, The French Village, and the iconic Golden Bridge.
+
+12:00 PM: Our car and guide will take you to have lunch
+
+Continue your ascent up the Nui Chua Mountain, the highest peak in the Ba Na range. Take in the breathtaking views from Nghinh Phong Top, visit the Le Nim Villas and the Orchid Garden.
+
+03:00 PM: We will transfer you back to the Cable Car for the journey back to your hotel.
+
+04:45 – 05:45 PM: Our car will bring you to the wharf.
+
+06:30 PM: Step aboard the yacht and embark on a journey along the picturesque Han River. Feel the gentle breeze on your skin as you take in the mesmerizing views of the city skyline at night.
+
+07:00 PM: Indulge in a delectable dinner onboard the cruise. As you dine, admire the iconic bridges of Da Nang, including the famous Dragon Bridge, illuminated against the night sky.
+
+09:30 PM: We will take you back to your hotel. End of service.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 26,
+        img: ["/DaNang/5.jpg", "/DaNang/3.jpg", "/DaNang/2.jpg", "/DaNang/4.jpg"],
+        title: "Ba Na Hills – Golden Bridge – Half Day City Tour – Private",
+        destination: ["Da Nang"],
+        duration: 1,
+        type: ["City Tours"],
+        price: 90,
+        general: "Set out on an enthralling day tour that highlights the best of Vietnam’s natural beauty and urban grandeur. Your journey commences at Ba Na Hills, where you’ll be captivated by the Golden Bridge, an astonishing architectural masterpiece supported by colossal stone hands. Meander across the Love Bridge, an emblem of romance and tenderness, before delving into the bustling city of Da Nang to witness the mesmerizing Dragon Bridge, renowned for its fiery exhibitions. This day excursion promises a seamless fusion of nature’s marvels and urban extravagance, guaranteeing an immersive encounter that will leave you with enduring memories of Vietnam’s allure and enchantment.",
+        special: [
+            "Explore the stunning Ba Na Hills with its French-inspired architecture and Golden Bridge",
+            "Witness the mesmerizing Dragon Bridge in action, known for its fiery weekend performances",
+            "Walk across the famous Love Bridge, a symbol of romance and love, offering picturesque views",
+            "Enjoy a delicious Vietnamese cuisine",
+        ],
+        details: [
+            {
+                title: "Ba Na Hills – Golden Bridge – Half Day City Tour – Private",
+                description: `07:30 AM – 08:00 AM: Our guide and driver will pick you up and transfer you to Ba Na Hills, located just 35km away.
+
+Experience the thrill of riding the Cable Car, which has earned 5 world records, to the Ba Na Hills station. Along the way, stop at the By Night station to visit the Vong Nguyet Hills, Linh Ung Pagoda, The French Village, and the iconic Golden Bridge.
+
+12:00 PM: Our car and guide will take you to have lunch
+
+Continue your ascent up the Nui Chua Mountain, the highest peak in the Ba Na range. Take in the breathtaking views from Nghinh Phong Top, visit the Le Nim Villas and the Orchid Garden.
+
+03:00 PM: We will transfer you back to the Cable Car for the next journey.
+
+04:45 – 05:45 PM: We will arrive and start exploring two famous bridges in Da Nang: Dragon Bridge and Love Bridge.
+
+07:30 PM: We will take you back to your hotel. End of service.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 27,
+        img: ["/DaNang/6.jpg", "/DaNang/7.jpg", "/DaNang/8.jpg", "/DaNang/5.jpg"],
+        title: "Cam Thanh Eco Tour – Da Nang Sunset Tour – Private",
+        destination: ["Da Nang"],
+        duration: 1,
+        type: ["Culture & History Tours"],
+        price: 43,
+        general: "Discover the natural and cultural wonders of Vietnam in a single day with our exciting tour itinerary. Start your journey by exploring the enchanting Marble Mountains, a cluster of five limestone hills filled with caves, pagodas, and panoramic views. Next, venture to the Monkey Mountains, where you can interact with playful macaques while enjoying breathtaking scenery. Finally, immerse yourself in the serene beauty of Cam Thanh Eco Tour, where you’ll paddle through lush water coconut palm forests, witness traditional fishing techniques, and savor local cuisine. This one-day tour promises a diverse and memorable adventure that captures the essence of Vietnam’s rich heritage and natural beauty.",
+        special: [
+            "Explore the stunning Marble Mountains, known for their natural beauty and unique marble formations",
+            "Visit Monkey Mountains and encounter playful monkeys in their natural habitat",
+            "Embark on a serene Cam Thanh Eco Tour, immersing yourself in the beauty of the Vietnamese countryside",
+            "Paddle through picturesque water coconut palm forests in traditional bamboo basket boats",
+            "Discover local culture and history with visits to traditional villages and workshops",
+            "Enjoy a delicious Vietnamese lunch with authentic flavors",
+        ],
+        details: [
+            {
+                title: "Cam Thanh Eco Tour – Da Nang Sunset Tour – Private",
+                description: `09:00 AM: Our guide and driver will pick you up from your hotel lobby and transport you to Cam Thanh fishing village.
+
+09:30 AM: Arrive at Cam Thanh village, where you’ll meet local fishermen and immerse yourself in their daily lives.
+
+10:00 AM: Take a bamboo basket boat on the Cam Thanh water coconut forest and have a brief introduction to the history there.
+
+11:00 AM: Learn to paddle the unique Vietnamese bamboo basket boat and join in a basket boat race.
+
+Explore the now peaceful coconut waterways of a past war
+Go catch the crabs
+Return fisherman’s house for a welcome drink
+Enjoy Lunch
+01:00 PM: Discover the Marble Mountains, stroll through local stone sculpture factories, and explore the most impressive handicrafts village in Da Nang.
+
+Explore the Marble Mountains by climbing to the top (elevator optional). Admire beautiful pagodas dating back to the 19th century and visit Huyen Khong or Tang Chon caves.
+
+Continue to Am Phu cave, the largest and most fascinating cave.
+
+04:30 PM: Our van will transport you to Monkey Mountain, where you’ll find the largest Lady Buddha statue in Central Vietnam, towering at 67 meters in height. From the top of the Son Tra peninsula, you can admire breathtaking mountain vistas and enjoy romantic sunsets.
+
+06:00 PM: We will take you back to Hoi An and we’ll ensure you’re dropped off at your hotel. End of tour.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 28,
+        img: ["/DaNang/9.jpg", "/DaNang/10.jpg", "/DaNang/11.jpg", "/DaNang/6.jpg"],
+        title: "Da Nang Full Day City Tour – Private",
+        destination: ["Da Nang"],
+        duration: 1,
+        type: ["Culture & History Tours"],
+        price: 29,
+        general: "Discover the unique beauty and culture of Da Nang with our captivating 1-day tour that takes you through the city’s standout attractions. Admire the stunning Marble Mountains, known for their ancient caves and traditional pagodas, and explore Monkey Mountain to get close to the local wildlife. Share a romantic moment with your loved one on the enchanting Love Bridge, and witness the mesmerizing spectacle of the Dragon Bridge as it breathes fire and water. This well-rounded itinerary offers a perfect blend of natural wonders and cultural highlights, ensuring an unforgettable day in Da Nang.",
+        special: [
+            "Explore Da Nang’s natural beauty at Marble Mountain, known for its stunning caves and pagodas",
+            "Visit Monkey Mountain and marvel at the colossal Lady Buddha statue with panoramic ocean views",
+            "Lock your love on the Love Bridge, a romantic spot offering picturesque river views",
+            "Witness the iconic Dragon Bridge in action",
+        ],
+        details: [
+            {
+                title: "Da Nang Full Day City Tour – Private",
+                description: `08:00 AM: Our guide and driver pick you up from your hotel in Da Nang City, start your journey.
+
+08:30 AM: Discover the Marble Mountains, stroll through local stone sculpture factories, and explore the most impressive handicrafts village in Da Nang.
+
+Explore the Marble Mountains by climbing to the top (elevator optional). Admire beautiful pagodas dating back to the 19th century and visit Huyen Khong or Tang Chon caves.
+
+Continue to Am Phu cave, the largest and most fascinating cave.
+
+10:30 AM: Our car will take you to Monkey Mountain. There, you’ll see a massive Lady Buddha statue surrounded by scenic mountains and a large bonsai garden. As you stroll through this heavenly garden, you’ll be captivated by its enchanting stories and the gentle breeze.
+
+Lunch on your own.
+
+In the afternoon, we will visit Love Bridge and Dragon Bridge.
+
+05:00 PM: We will take you back and ensure you’re dropped off at your hotel. End of tour.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 29,
+        img: ["/DaNang/12.jpg", "/DaNang/13.jpg", "/DaNang/14.jpg", "/DaNang/9.jpg"],
+        title: "Dinner Cruise on Han River – Private",
+        destination: ["Da Nang"],
+        duration: 1,
+        type: ["Honeymoon & Romantic Tours"],
+        price: 51,
+        general: "This dinner tour offers a memorable journey as you sail along Da Nang’s stunning river coastline, taking in breathtaking sunset views. Savor a delectable Vietnamese dinner served onboard, featuring a variety of local delicacies This private tour ensures an intimate and personalized atmosphere, ideal for couples or small groups. From the mesmerizing scenery to the exquisite cuisine, this dinner cruise provides a perfect blend of relaxation and gastronomic delight, creating cherished memories of your visit to Da Nang.",
+        special: [
+            "Enjoy a relaxing and scenic cruise along the Han River",
+            "Savor a delicious dinner on the cruise while marveling at Da Nang’s iconic bridges, including the illuminated Dragon Bridge",
+            "Live entertainment and music to enhance the dining experience",
+        ],
+        details: [
+            {
+                title: "Dinner Cruise on Han River – Private",
+                description: `06:00 PM: Our driver will pick you up from your hotel in Da Nang.
+
+06:30 PM: Step aboard the yacht and embark on a journey along the picturesque Han River. Feel the gentle breeze on your skin as you take in the mesmerizing views of the city skyline at night.
+
+07:00 PM: Indulge in a delectable dinner onboard the cruise. As you dine, admire the iconic bridges of Da Nang, including the famous Dragon Bridge, illuminated against the night sky.
+
+09:30 PM: We will take you back to your hotel. End of service.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 30,
+        img: ["/DaNang/15.jpg", "/DaNang/16.jpg", "/DaNang/13.jpg", "/DaNang/14.jpg"],
+        title: "Marble Mountains – Monkey Mountain – Dinner Cruise – Private",
+        destination: ["Da Nang"],
+        duration: 1,
+        type: ["Honeymoon & Romantic Tours"],
+        price: 66,
+        general: "Indulge in a thrilling one-day tour that combines the wonders of Marble Mountain, the charm of Monkey Mountain, and a delightful dinner cruise. Embark on a journey to the enchanting Marble Mountains, filled with ancient caves and temples. Then, continue to Monkey Mountain, where playful macaques and breathtaking vistas await. As day turns into evening, treat your taste buds to a sumptuous dinner while cruising along the serene Han River. This day of adventure, spirituality, and culinary delights ensures a memorable experience filled with exploration and relaxation.",
+        special: [
+            "Explore the stunning Marble Mountains, a cluster of five limestone hills, and visit ancient pagodas and caves within",
+            "Ascend Monkey Mountain to witness panoramic views of Da Nang and encounter playful monkeys along the way",
+            "Discover the mystical Am Phu Cave, known as the Hell Cave, and learn about its religious significance",
+            "Enjoy a relaxing cruise along the Han River, taking in the mesmerizing city lights and bridges",
+        ],
+        details: [
+            {
+                title: "Marble Mountains – Monkey Mountain – Dinner Cruise – Private",
+                description: `02:00 PM: We’ll pick you up from your hotel in Hoi An and head towards Da Nang City.
+
+02:30 PM: Discover the Marble Mountains, stroll through local stone sculpture factories, and explore the most impressive handicrafts village in Da Nang.
+
+Explore the Marble Mountains by climbing to the top (elevator optional). Admire beautiful pagodas dating back to the 19th century and visit Huyen Khong or Tang Chon caves.
+
+Continue to Am Phu cave, the largest and most fascinating cave.
+
+04:30 PM: Our van will transport you to Monkey Mountain, where you’ll find the largest Lady Buddha statue in Central Vietnam, towering at 67 meters in height. From the top of the Son Tra peninsula, you can admire breathtaking mountain vistas and enjoy romantic sunsets.
+
+06:00 PM: We will take you to the wharf.
+
+06:30 PM: Step aboard the yacht and embark on a journey along the picturesque Han River. Feel the gentle breeze on your skin as you take in the mesmerizing views of the city skyline at night.
+
+07:00 PM: Indulge in a delectable dinner onboard the cruise. As you dine, admire the iconic bridges of Da Nang, including the famous Dragon Bridge, illuminated against the night sky.
+
+09:30 PM: We will take you back to your hotel. End of service.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 31,
+        img: ["/Sapa/1.jpg", "/Sapa/2.jpg", "/Sapa/3.jpg", "/Sapa/4.jpg"],
+        title: "Sapa Discover: Love Waterfall – Heaven Gate – San Sa Ho – Private",
+        destination: ["Sapa"],
+        duration: 1,
+        type: ["Culture & History Tours", "Nature Tours"],
+        price: 32,
+        general: "Uncover the hidden gems of Sapa on this private day tour through nature and culture. Feel the mist of the romantic Love Waterfall, take in sweeping mountain views from the legendary Heaven Gate, and explore the peaceful charm of San Sa Ho Village. With a local guide, scenic trails, and authentic moments, this journey brings you closer to the wild beauty and soulful spirit of Sapa.",
+        special: [
+            "Witness the enchanting cascade of Sapa Love Waterfall, known for its romantic legends",
+            "Stand at one of the highest points in Sapa for breathtaking panoramic views at Heaven Gate",
+            "Discover San Sa Ho, a lesser-known village offering a unique and authentic experience of local life and landscapes",
+        ],
+        details: [
+            {
+                title: "Sapa Discover: Love Waterfall – Heaven Gate – San Sa Ho – Private",
+                description: `Our guide and driver will pick you up at the meeting point and transfer you to Silver Waterfall. This amazing waterfall is high in the mountains (1900 meters) with a great view of the valley. You’ll climb steps, cross a bridge, and take awesome photos.
+
+Next, we drive to Love Waterfall (Sapa’s biggest). We’ll walk through the National Park with old trees and pretty streams. You might even see buffalo. Enjoy the fresh air and swim in the waterfall if it’s warm enough. Take amazing pictures of the jungle and waterfall. Did you know this jungle has special plants used for medicine?
+
+Continue the trip by car to Vietnam’s highest mountain pass (2000 meters). It’s called Heaven Gate. From up there, the valley looks huge, and the road below winds like a giant snake. Sometimes clouds fill the valley.
+
+Next, we drive to O Quy Ho village and hike down to a beautiful green tea field – perfect for photos. Then we’ll walk a dirt path to see Sapa’s famous rice and corn fields. We’ll have a picnic lunch with a great view or down by the river. We’ll also visit a local house in Sin Chai village to learn about daily life. This village is known for its amazing weavers. Finally, we’ll drive back to Sapa, arriving around 02:30 – 03:00 PM.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 32,
+        img: ["/Sapa/3.jpg", "/Sapa/4.jpg", "/Sapa/1.jpg", "/Sapa/2.jpg"],
+        title: "Sapa Discovery: Y Linh Ho – Lao Chai – Ta Van – Private",
+        destination: ["Sapa"],
+        duration: 1,
+        type: ["Culture & History Tours", "Nature Tours"],
+        price: 36,
+        general: "Begin your 1- day trekking adventure by meeting your local guide at the hotel or our office. Embark on a scenic journey starting from the main road, descending into the valley towards Y Linh Ho village, nestled beside the tranquil Muong Hoa stream. The trail leads to Lao Chai, a village inhabited by the Black H’mong community. Your exploration continues as you reach Ta Van village, home to the Giay people. Ta Van is a culturally rich village where the H’Mong, Red Dao, and Giay ethnic groups have coexisted for generations, surrounded by ancient houses and a vivid history.",
+        special: [
+            "Walk into the valley towards Y Linh Ho village, located beside the serene Muong Hoa stream",
+            "Explore Lao Chai, a village inhabited by the Black H’mong community, and immerse in their culture",
+            "Discover Ta Van village, the home of the H’Mong, Red Dao, and Giay ethnic groups that have coexisted for generations",
+        ],
+        details: [
+            {
+                title: "Sapa Discovery: Y Linh Ho – Lao Chai – Ta Van – Private",
+                description: `08:30 AM: Meet your guide at the hotel and start your hike! We’ll walk down to Y Linh Ho village, a quiet place by the Muong Hoa stream. You’ll see beautiful rice fields, mountains, and traditional houses.
+
+12:00 PM: Lunch at a local H’mong restaurant in Lao Chai village with the mountain views, and the unique rice terraces.
+
+01:00 PM: Hike to Ta Van village to visit the Giay people. You’ll also see H’mong and Red Dao people here. Ta Van is a busy village with old houses, rice fields, corn fields, paths, and places to stay.
+
+02:30 PM: Our driver will take us back to your hotel in Sapa.
+
+End of service.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 33,
+        img: ["/Sapa/5.jpg", "/Sapa/6.jpg", "/Sapa/7.jpg", "/Sapa/8.jpg"],
+        title: "Sapa Trekking Through Rice Terraced Fields – Private",
+        destination: ["Sapa"],
+        duration: 1,
+        type: ["Culture & History Tours", "Nature Tours"],
+        price: 24,
+        general: "Immerse yourself in the breathtaking beauty of Sapa on a guided trek through its iconic terraced rice fields. Walk along peaceful mountain trails, visit remote ethnic villages, and witness daily life unfold amid dramatic landscapes. With a local guide and a personalized itinerary, this journey offers a deep connection to nature, culture, and the rhythms of rural Vietnam.",
+        special: [
+            "Experience the rural lifestyle and stunning scenery at Y Linh Ho Village",
+            "Enjoy the serene beauty along the Muong Hoa River",
+            "Explore traditional H’mong homes and culture in Cat Cat Village",
+        ],
+        details: [
+            {
+                title: "Sapa Trekking Through Rice Terraced Fields – Private",
+                description: `Our local guide will meet you at your Sapa Town hotel or the main church. You’ll then walk 2km to Cat Cat Village, famous for its Hmong people and enjoy amazing rice fields and mountain views.
+
+Next, head to Y Linh Ho village for lunch at a small Hmong family restaurant. After lunch, you’ll visit Lao Chai, a Black Hmong village, and Ta Van village, home to the Giay people. Our guide will explain how the ethnic groups are different before a car takes you back to Sapa.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 34,
+        img: ["/Sapa/7.jpg", "/Sapa/6.jpg", "/Sapa/5.jpg", "/Sapa/8.jpg"],
+        title: "Exploring Sapa: Lao Chai – Ta Van – Giang Ta Chai – Private",
+        destination: ["Sapa"],
+        duration: 1,
+        type: ["Culture & History Tours", "Nature Tours"],
+        price: 36,
+        general: "Discover the heart of Sapa’s culture and scenery on a one-day private tour through Muong Hoa Valley and local ethnic villages. Your journey unfolds in the stunning Muong Hoa Valley, renowned for its lush landscapes and terraced rice fields. As you trek through this picturesque setting, visit quaint villages where you’ll experience the rich traditions and daily life of local ethnic communities. This immersive tour offers a unique blend of natural beauty and cultural exchange, with a local guide enhancing your understanding of the region’s heritage. Enjoy an intimate and authentic exploration, complete with lunch, in this enchanting corner of Vietnam.",
+        special: [
+            "Explore the breathtaking landscapes of Muong Hoa Valley",
+            "Immerse yourself in the rich culture of local ethnic villages",
+            "Admire the iconic rice terraces that paint the valley",
+            "Savor a local lunch, providing a taste of regional flavors",
+        ],
+        details: [
+            {
+                title: "Exploring Sapa: Lao Chai – Ta Van – Giang Ta Chai – Private",
+                description: `Our guide will pick you up at your hotel in Sapa and start our 10km hike through the valley. You might see morning mist over the rice fields! We’ll take a small path across the Muong Hoa River and see beautiful rice fields on the way to Lao Chai village. This is where the Black Hmong people live. Next, we’ll hike to Ta Van Giay village and walk near the Muong Hoa River to cross a small bridge. You’ll see amazing old rock carvings with pictures of people, houses, and patterns.
+
+Have lunch at a local house in the village.
+
+Then we’ll hike through a bamboo forest to Giang Ta Chai village, where the Red Dao people live. We can rest by a waterfall before going uphill back to the main road.
+
+Our driver will be waiting to take us back to your hotel.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 35,
+        img: ["/Sapa/9.jpg", "/Sapa/10.jpg", "/Sapa/11.jpg", "/Sapa/12.jpg"],
+        title: "From Hanoi: Silver Waterfall – Heaven Gate – Private",
+        destination: ["Sapa"],
+        duration: 2,
+        type: ["Culture & History Tours", "Nature Tours"],
+        price: 36,
+        general: "Embark on a captivating 2-day journey from Hanoi to Sapa, blending scenic beauty and cultural exploration. Day 1 starts with a scenic drive from Hanoi to Sapa, a picturesque town known for its stunning landscapes. Visit the glistening Silver Waterfall and marvel at the panoramic views from Heaven Gate. The day is capped with a private walking tour, immersing you in Sapa’s rich cultural tapestry. On Day 2, after soaking up Sapa’s enchanting ambiance, you’ll return to Hanoi, carrying memories of lush mountains, vibrant local life, and the tranquil beauty of northern Vietnam. This trip is a perfect blend of nature and culture.",
+        special: [
+            "Immerse yourself in the captivating beauty of the Silver Waterfall",
+            "Elevate your experience by ascending to the breathtaking Heaven Gate viewpoint",
+            "Admire the panoramic vistas of the Hoang Lien Son Mountains",
+        ],
+        details: [
+            {
+                title: "HANOI – SAPA – SILVER WATERFALL – HEAVEN GATE",
+                description: `06:20 AM: Our limousine will pick you up at your Old Quarter hotel and take you to Sapa on the highway. Enjoy the beautiful mountain scenery along the way. We’ll take 2 short breaks, each in 30 minutes before arriving in Sapa.
+
+01:00 – 01:30 PM: Arrive in Sapa, you will check in at your hotel.
+
+In the afternoon, meet your guide and driver for a scenic trip. We’ll drive uphill with amazing views of Fansipan Mountain. We’ll see flower farms and chayote fields. Then, we’ll stop at the beautiful Silver Waterfall before heading to Heaven Gate and Tram Ton Pass. This is Vietnam’s highest mountain pass (2047m above sea level). You can walk around for 30 minutes and enjoy views of both sides of the Hoang Lien Son mountains.
+
+We’ll drive 7km downhill from Heaven Gate. You might see farms in O Quy Ho where they grow vegetables, flowers, fruit, and even medicine.
+
+We’ll go back to Sapa and drop you off at your hotel or anywhere you’d like.
+
+Overnight at your hotel in Sapa.`
+            },
+            {
+                title: "SAPA – HANOI",
+                description: `Enjoy free time until our car arrives at your hotel to transfer you back to Hanoi. Lunch will be provided before reaching Hanoi in the evening.
+
+Dinner on your own. End of services.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 36,
+        img: ["/Sapa/7.jpg", "/Sapa/8.jpg", "/Sapa/9.jpg", "/Sapa/10.jpg", "/Sapa/11.jpg", "/Sapa/12.jpg"],
+        title: "From Hanoi: Ta Phin – Hill Tribe Village – Private",
+        destination: ["Sapa"],
+        duration: 2,
+        type: ["Culture & History Tours", "Nature Tours"],
+        price: 36,
+        general: "Start your 2-day trip with a scenic journey from Hanoi to the serene Sapa region. On Day 1, delve into the cultural richness of the Taphin Red Dao Hill Tribe Village through a private walking tour, where you’ll witness the unique traditions and lifestyles of the local tribes amidst stunning landscapes. The following day, after experiencing the tranquility and picturesque views of Sapa, you’ll return to the lively atmosphere of Hanoi, carrying with you a trove of new experiences and memories. This itinerary is an ideal blend of cultural immersion and natural exploration.",
+        special: [
+            "Walk through picturesque Sapa landscapes, and interact with friendly villagers to gain insights into their unique customs",
+            "Discover Red Dao handicrafts, including intricate embroidery and textiles, and enjoy panoramic countryside views",
+        ],
+        details: [
+            {
+                title: "HANOI – SAPA – TA PHIN RED DAO HILL TRIBE VILLAGE",
+                description: `06:20 AM: Our limousine will pick you up at your Old Quarter hotel and take you to Sapa on the highway. Enjoy the beautiful mountain scenery along the way. We’ll take 2 short breaks, each in 30 minutes before arriving in Sapa.
+
+01:00 – 01:30 PM: Arrive in Sapa, you will check in at your hotel.
+
+Today we’ll visit Ta Phin, a large valley about 14km from Sapa town. It’s surrounded by mountains with pine trees and forests. Two ethnic groups live here: the Red Dzao and the Black H’mong. Even though they live near each other, they’re very different. The H’mong people are cheerful and outgoing, while the Red Dzao are more private and focused on saving money.
+
+We’ll take a short drive and then an easy walk on a village path. You’ll see H’mong houses throughout the valley. From higher up, you’ll get a great view. Next, we’ll visit a Red Dzao village where women make beautiful embroidered clothes and handbags. After that, we’ll head back to your hotel.`
+            },
+            {
+                title: "SAPA – HANOI",
+                description: `Enjoy free time until our car arrives at your hotel to transfer you back to Hanoi. Lunch will be provided before reaching Hanoi in the evening.
+
+Dinner on your own. End of services.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 37,
+        img: ["/NinhBinh/1.jpg", "/NinhBinh/2.jpg", "/NinhBinh/3.jpg", "/NinhBinh/4.jpg", "/NinhBinh/5.jpg"],
+        title: "Full Day to Cuc Phuong National Park Trekking Tour – Private",
+        destination: ["Ninh Binh"],
+        duration: 1,
+        type: ["Walking Tours", "Nature Tours"],
+        price: 47,
+        general: "Discover the enchanting Cuc Phuong National Park in our concise yet immersive itinerary. Begin with visits to the Endangered Primate Rescue Center and Turtle Conservation Program, where conservation efforts come alive. Stroll through the diverse Botanical Garden, a testament to Vietnam’s rich flora. The journey culminates in a choice of two treks: the awe-inspiring “1000 Years Old Tree” for the adventurous or the tranquil “Ancient Tree” for a gentler exploration. This tour perfectly blends wildlife conservation with the natural beauty of Vietnam’s landscapes, promising an unforgettable experience.",
+        special: [
+            "Early departure for Cuc Phuong National Park, a stunning nature reserve with comfortable transportation provided",
+            "Visit the Endangered Primate Rescue Center to learn about conservation efforts and witness rehabilitation initiatives",
+            "Enjoy a delicious picnic-style lunch amidst serene surroundings",
+            "Explore prehistoric caves with guided tours revealing fascinating geological formations",
+            "Discover diverse plant species in the park’s botanical garden, gaining insights into the region’s rich biodiversity",
+        ],
+        details: [
+            {
+                title: "Full Day to Cuc Phuong National Park Trekking Tour – Private",
+                description: `08:00 AM: Our bus and tour guide will pick you up from your hotel in Tam Coc or Ninh Binh City for a scenic drive to Cuc Phuong National Park.
+
+10:30 AM: Arrival at Cuc Phuong National Park. You can explore the park’s highlights including the Endangered Primate Rescue Center, Turtle Conservation Program, and the botanical garden.
+
+12:30 PM: Have lunch at the park entrance or center.
+
+01:00 PM: We ride you through the primary forest takes you 20 kilometers to the park’s central area.
+
+01:30 PM: You can choose your hike: a challenging trek to the “1000 Years Old Tree” or a gentler walk to the “Ancient Tree.”
+
+03:30 PM: Begin the journey back to Tam Coc village and Ninh Binh city.
+
+04:00 PM: You arrive back in Tam Coc or Ninh Binh and be dropped off at your hotel. End of tour.`
+            },
+            {
+                title: "SAPA – HANOI",
+                description: `Enjoy free time until our car arrives at your hotel to transfer you back to Hanoi. Lunch will be provided before reaching Hanoi in the evening.
+
+Dinner on your own. End of services.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 38,
+        img: ["/NinhBinh/6.jpg", "/NinhBinh/7.jpg", "/NinhBinh/8.jpg", "/NinhBinh/9.jpg"],
+        title: "Ninh Binh Day Trip: Hoa Lu – Van Long – Thung Nham – Private",
+        destination: ["Ninh Binh"],
+        duration: 1,
+        type: ["Culture & History Tours"],
+        price: 65,
+        general: "Discover the historical and natural splendors of Vietnam with our one-day private tour from Hanoi to Ninh Binh. The journey takes you to Hoa Lu, the ancient capital, where history echoes through its remarkable temples. Next, experience the serene beauty of Van Long Nature Reserve, a haven of stunning landscapes and rich biodiversity. Your adventure continues at Thung Nham Bird Garden, a peaceful sanctuary teeming with diverse bird species. Enjoy a delicious lunch amidst these picturesque settings. Concluding with a return to Hanoi, this tour offers a perfect blend of cultural heritage and natural wonder, all within a day’s exploration.",
+        special: [
+            "Explore Hoa Lu’s ancient capital and temples",
+            "Take a scenic boat trip in Van Long’s natural reserve",
+            "Enjoy local cuisine for lunch",
+            "Discover Thung Nham’s bird park and caves, including the Buddha Cave and the Fairy Cave",
+            "Engage with locals for cultural insights",
+        ],
+        details: [
+            {
+                title: "Ninh Binh Day Trip: Hoa Lu – Van Long – Thung Nham – Private",
+                description: `07:00 AM: Our bus and tour guide will pick you up from your hotel in Tam Coc or Ninh Binh City for a visit to Hoa Lu Ancient Capital.
+
+07:30 AM: We’ll check out Hoa Lu, which was Vietnam’s capital a long time ago, from 968 to 1010. It’s a great place to learn about Vietnam’s history back in the days of the Dinh, Le, and Ly Dynasties.
+
+10:00 AM: Depart to Van Long Nature Reserve, a serene and picturesque wetland nature reserve, often referred to as the “bay without waves”. It is known for its stunning limestone karsts, diverse flora and fauna, and tranquil atmosphere.
+
+10:30 AM: Enjoy a boat tour in Van Long Nature Reserve. Your boat guide will share interesting information about the reserve and its inhabitants.
+
+12:30 PM: Have a buffet lunch with Vietnamese dishes at a local restaurant.
+
+01:30 PM: We will start moving to Thung Nham, a beautiful bird garden with a diverse ecosystem.
+
+02:30 PM: Cruise through the peaceful waterways and witness the fascinating birdlife in their natural habitat.
+
+04:30 PM: You arrive back in Tam Coc or Ninh Binh and be dropped off at your hotel. End of tour.`
+            },
+            {
+                title: "SAPA – HANOI",
+                description: `Enjoy free time until our car arrives at your hotel to transfer you back to Hanoi. Lunch will be provided before reaching Hanoi in the evening.
+
+Dinner on your own. End of services.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 39,
+        img: ["/NinhBinh/10.jpg", "/NinhBinh/11.jpg", "/NinhBinh/12.jpg", "/NinhBinh/13.jpg", "/NinhBinh/14.jpg"],
+        title: "From Hanoi: Explore Highlights of Ninh Binh – Private",
+        destination: ["Ninh Binh"],
+        duration: 2,
+        type: ["Culture & History Tours"],
+        price: 63,
+        general: "Dive into a 2-day excursion starting from Hanoi, filled with the enchantment of Ninh Binh. On the first day, experience the spiritual grandeur of Bai Dinh, the serene boat rides in Tam Coc, and the breathtaking views from Mua Cave, complemented with breakfast and lunch. The second day keeps the wonder alive with a visit to the historic Hoa Lu and a tranquil boat journey through the majestic Trang An grottoes, with meals provided. This journey culminates with a return to Hanoi, leaving you with lasting memories of Vietnam’s cultural and natural beauty.",
+        special: [
+            "Visit the impressive Bai Dinh Pagoda, one of the largest in Vietnam.",
+            "Explore the picturesque Tam Coc area, often referred to as “Halong Bay on Land”",
+            "Climb to Mua Cave, offering breathtaking panoramic views of the countryside",
+            "Discover the historical significance of Hoa Lu, the ancient capital",
+            "Experience a serene boat trip through the Trang An grottoes, a UNESCO World Heritage site",
+        ],
+        details: [
+            {
+                title: "Hanoi – Bai Dinh Pagoda – Tam Coc – Mua Cave",
+                description: `07:00 AM: Our guide and driver will pick you up at your hotel in Hanoi Old Quarter, head to Ninh Binh.
+
+09:00 AM: We’ll stop for a short break within 15 – 20 minutes, allowing you some time to stretch and relax.
+
+10:30 AM: You will discover the grandeur of Bai Dinh Pagoda, renowned as Southeast Asia’s largest and most illustrious pagoda, boasting numerous records with its 500 Stone Arhat Statues, a 36-ton bronze bell, and a 100-ton Buddha statue.
+
+12:30 PM: Have a buffet lunch with Vietnamese dishes at a local restaurant.
+
+01:30 PM: Then, we’ll take a 1.5-hour boat ride through Tam Coc, where you’ll see why people call this place “Halong Bay on land” with its beautiful fields, rivers, and caves.
+
+04:00 PM: After that, we’re off to Mua Caves. Get ready to climb almost 500 steps to the top of Lying Dragon Mountain for an awesome view of Tam Coc below.
+
+05:00 PM: To wrap up the day, we’ll take you to hotel or bungalow in Tam Coc. Dinner will be served at the hotel or a nearby restaurant.`
+            },
+            {
+                title: "Hoa Lu – Trang An – Hanoi",
+                description: `07:30 AM: Enjoy your breakfast at the hotel or bungalow and gear up for an exciting trip ahead.
+
+09:30 – 09:45 AM: Our tour guide will pick you up for a visit to Hoa Lu Ancient Capital.
+
+10:30 AM: Next, we’ll check out Hoa Lu, which was Vietnam’s capital a long time ago, from 968 to 1010. It’s a great place to learn about Vietnam’s history back in the days of the Dinh, Le, and Ly Dynasties.
+
+12:30 PM: Have a buffet lunch with Vietnamese dishes.
+
+01:30 PM: Then, we will venture into Trang An, a UNESCO World Heritage Site known for its spectacular tunnel cave system and natural beauty, which famously served as a location for the 2016 “Skull Island” film. Enjoy a boat trip navigating through breathtaking caves such as Light Cave (Hang Sang), Dark Cave (Hang Toi), and Cooking Wine Cave (Hang Nau Ruou), set against the backdrop of a verdant river and landscapes.
+
+04:00 PM: Get on the Bus to return to Hanoi.
+
+06:30 PM: We will take you back to Hanoi and we’ll ensure you’re dropped off at your hotel. End of tour.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 40,
+        img: ["/NinhBinh/15.jpg", "/NinhBinh/16.jpg", "/NinhBinh/1.jpg", "/NinhBinh/2.jpg"],
+        title: "From Hanoi: Cuc Phuong – Trang An – Private",
+        destination: ["Ninh Binh"],
+        duration: 1,
+        type: ["Culture & History Tours"],
+        price: 64,
+        general: "Discover the allure of Vietnam with a day trip from Hanoi, offering an exclusive exploration of Ninh Binh and the Cuc Phuong National Park. Departing from the bustling streets of Hanoi, your private tour guides you to the serene landscapes of Ninh Binh, a gem known for its dramatic natural scenery. The adventure peaks with a trek through Cuc Phuong National Park, a verdant expanse teeming with wildlife and rich in ecological diversity. Savor local flavors with included meals, adding a culinary dimension to your experience. Ideal for nature enthusiasts, this tour blends cultural insights with the tranquility of Vietnam’s countryside, all within a day’s reach from the capital.",
+        special: [
+            "Explore the lush biodiversity of Cuc Phuong National Park",
+            "Visit the Endangered Primate Rescue Center to see rare primates up close",
+            "Embark on a mesmerizing boat ride through the karst landscapes of Trang An",
+            "Savor authentic Vietnamese cuisine at a local restaurant",
+        ],
+        details: [
+            {
+                title: "From Hanoi: Cuc Phuong – Trang An – Private",
+                description: `07:00 AM: Our bus and tour guide will pick you up at your hotel in Hanoi Old Quarter for a scenic drive to Cuc Phuong National Park.
+
+09:00 AM: Arrival at Cuc Phuong National Park. You can explore the park’s highlights including the Endangered Primate Rescue Center, Turtle Conservation Program, and the botanical garden.
+
+We ride you through the primary forest takes you 20 kilometers to the park’s central area.
+
+You will trek inside the jungle to visit the One-thousand-year-old Tree and then The Pre-historic man’s cave if you have enough time.
+
+11:30 AM: Continue to explore the local life with a 45-minute cycling tour around the village, gaining a closer look at the daily routines of the residents.
+
+12:30 PM: Have a buffet lunch with Vietnamese dishes at a local restaurant at park headquarters.
+
+01:30 PM: Then, we will venture into Trang An, a UNESCO World Heritage Site known for its spectacular tunnel cave system and natural beauty, which famously served as a location for the 2016 “Skull Island” film. Enjoy a boat trip navigating through breathtaking caves such as Light Cave (Hang Sang), Dark Cave (Hang Toi), and Cooking Wine Cave (Hang Nau Ruou), set against the backdrop of a verdant river and landscapes.
+
+04:30 PM: Get on the bus to return to Hanoi.
+
+06:30 PM: We will take you back to Hanoi and we’ll ensure you’re dropped off at your hotel. End of tour.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 41,
+        img: ["/NinhBinh/9.jpg", "/NinhBinh/10.jpg", "/NinhBinh/11.jpg", "/NinhBinh/12.jpg"],
+        title: "From Hanoi: Bai Dinh – Trang An – Hang Mua – Private",
+        destination: ["Ninh Binh"],
+        duration: 1,
+        type: ["Culture & History Tours"],
+        price: 68,
+        general: "Embark on a private tour exploring the serene beauty of Ninh Binh, namely Bai Dinh pagoda, Trang An complex, and Hang Mua. This tailored journey begins in the picturesque landscapes of Ninh Binh, known for its majestic limestone cliffs and lush valleys. Visit the spiritual Bai Dinh Temple, the largest Buddhist complex in Vietnam, rich in cultural heritage. Traverse the scenic Trang An complex, a UNESCO World Heritage site, with its spectacular limestone karst landscapes and tranquil waterways. Conclude your adventure at Hang Mua, ascending to its peak for a breathtaking panoramic view of the region. This itinerary promises an intimate and unforgettable exploration of Vietnam’s natural and cultural wonders.",
+        special: [
+            "Explore the grandeur of Bai Dinh Temple, the largest Buddhist complex in Southeast Asia",
+            "Enjoy a scenic boat ride through the limestone karsts and caves of Trang An Grottoes",
+            "Hike to the top of Hang Mua for panoramic views of Tam Coc and Ninh Binh",
+            "Indulge in delicious Vietnamese cuisine at local eateries, tasting regional specialties",
+            "Immerse yourself in the local culture, interact with residents, and learn about the historical significance of the sites from knowledgeable guides",
+        ],
+        details: [
+            {
+                title: "From Hanoi: Bai Dinh – Trang An – Hang Mua – Private",
+                description: `07:30 – 08:15 AM: Our guide and driver will collect you from your hotel in Hanoi Old Quarter, ready for the day’s adventure.
+
+10:00 AM: Upon arrival at Bai Dinh Pagoda, you’ll board an electric car to delve into the heart of this sprawling complex.
+
+12:30 PM: Have a buffet lunch with Vietnamese dishes
+
+01:30 PM: Embark on a serene sampan boat journey through Trang An Sanctuary, a UNESCO World Heritage site, admiring the stunning landscape of towering mountains and lush green fields.
+
+04:00 PM: You will have an adventure to Mua Cave and Ngoa Long Viewpoint for breathtaking panoramic views of the surrounding countryside.
+
+05:00 – 07:45 PM: We conclude our day with a return trip to Hanoi, ensuring you are comfortably dropped off at your hotel in the evening. End of this tour.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
+    {
+        id: 42,
+        img: ["/NinhBinh/2.jpg", "/NinhBinh/3.jpg", "/NinhBinh/4.jpg", "/NinhBinh/5.jpg"],
+        title: "From Hanoi: Hoa Lu – Trang An – Cuc Phuong – Private",
+        destination: ["Ninh Binh"],
+        duration: 2,
+        type: ["Culture & History Tours"],
+        price: 128,
+        general: "This two-day private tour offers an enchanting journey from Hanoi to the historic and natural wonders of Ninh Binh and Cuc Phuong National Park. Day 1 starts with a trip to Hoa Lu in Ninh Binh, exploring ancient temples and the captivating Trang An landscape, followed by a return to Hanoi with meals included. On Day 2, the adventure continues to Cuc Phuong National Park, Vietnam’s oldest national park, rich in biodiversity and natural beauty. After exploring its lush forests and wildlife, the tour concludes with a return to Hanoi, including Breakfast and Lunch. This itinerary promises a blend of cultural heritage and natural splendor.",
+        special: [
+            "Explore the lush biodiversity of Cuc Phuong National Park",
+            "Visit the Endangered Primate Rescue Center to see rare primates up close",
+            "Hike the scenic trails, surrounded by ancient trees and diverse flora",
+            "Embark on a mesmerizing boat ride through the karst landscapes of Trang An",
+            "Savor authentic Vietnamese cuisine at a local restaurant",
+            "Visit the historic Hoa Lu Ancient Capital, the former political center of Vietnam",
+            "Explore the temples dedicated to Dinh and Le dynasties",
+        ],
+        details: [
+            {
+                title: "HANOI – HOA LU – TRANG AN – JOINT IN TOUR",
+                description: `07:00 – 07:15 AM: Our guide and driver will pick you up at your hotel in Hanoi Old Quarter, head to Ninh Binh.
+
+09:15 AM: We’ll stop for a short break within 15 – 20 minutes, allowing you some time to stretch and relax.
+
+10:45 AM: Next, we’ll check out Hoa Lu, which was Vietnam’s capital a long time ago, from 968 to 1010. It’s a great place to learn about Vietnam’s history back in the days of the Dinh, Le, and Ly Dynasties.
+
+11:30 AM: Continue to explore the local life with a 45-minute cycling tour around the village, gaining a closer look at the daily routines of the residents.
+
+12:30 PM: Have a buffet lunch with Vietnamese dishes.
+
+01:30 PM: Then, we will venture into Trang An, a UNESCO World Heritage Site known for its spectacular tunnel cave system and natural beauty, which famously served as a location for the 2016 “Skull Island” film. Enjoy a boat trip navigating through breathtaking caves such as Light Cave (Hang Sang), Dark Cave (Hang Toi), and Cooking Wine Cave (Hang Nau Ruou), set against the backdrop of a verdant river and landscapes.
+
+04:00 PM: To wrap up the day, we’ll take you to hotel or bungalow in Tam Coc. Dinner will be served at the hotel or a nearby restaurant.`
+            },
+            {
+                title: "CUC PHUONG NATIONAL PARK – HANOI",
+                description: `In the morning, your breakfast will be served at Bungalow then check out.
+
+08:00 AM: Our bus and tour guide will pick you up for a scenic drive to Cuc Phuong National Park.
+
+10:30 AM: Arrival at Cuc Phuong National Park. You can explore the park’s highlights including the Endangered Primate Rescue Center, Turtle Conservation Program, and the botanical garden.
+
+12:30 PM: Have lunch at the park entrance or center.
+
+01:00 PM: We ride you through the primary forest takes you 20 kilometers to the park’s central area.
+
+You will trek inside the jungle to visit the One-thousand-year-old Tree and then The Pre-historic man’s cave if you have enough time.
+
+04:30 PM: Get on the bus to return to Hanoi.
+
+06:30 PM: We will take you back to Hanoi and we’ll ensure you’re dropped off at your hotel. End of tour.`
+            }
+        ],
+        accommodation: "Accommodation is flexible and tailored to your preferences. We’ll suggest suitable options and can adjust upon request."
+    },
 ]
 

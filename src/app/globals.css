@@ -24,3 +24,52 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Fix z-index issues with Swiper and Modal */
+.swiper {
+  z-index: 1 !important;
+}
+
+.swiper-slide {
+  z-index: 1 !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  z-index: 10 !important;
+}
+
+.swiper-pagination {
+  z-index: 10 !important;
+}
+
+.swiper-container {
+  z-index: 1 !important;
+}
+
+.swiper-wrapper {
+  z-index: 1 !important;
+}
+
+/* Force all swiper related elements to low z-index */
+[class*="swiper"] {
+  z-index: 1 !important;
+}
+
+/* Ensure modal backdrop covers everything */
+[role="dialog"][aria-modal="true"] {
+  z-index: 999999 !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+/* Force modal content to be on top */
+[role="dialog"][aria-modal="true"] > div {
+  z-index: 1000000 !important;
+  position: relative !important;
+}

@@ -192,15 +192,8 @@ function ToursPanel() {
     "Mekong Delta",
     "Da Nang",
     "Hoi An",
-    "Da Lat",
-    "Ha Giang",
-    "Hue",
-    "Mai Chau",
-    "Nha Trang",
     "Ninh Binh",
-    "Phu Quoc",
     "Sapa",
-    "Pu Luong",
   ]);
 
   const cruises = [

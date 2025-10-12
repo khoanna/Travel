@@ -10,8 +10,38 @@ const index = [
     {
         params: "/short-trip/ha-noi",
         start: 6,
-        end: 13
-    }
+        end: 12
+    },
+    {
+        params: "/short-trip/ho-chi-minh",
+        start: 12,
+        end: 18
+    },
+    {
+        params: "/short-trip/hoi-an",
+        start: 18,
+        end: 21
+    },
+    {
+        params: "/short-trip/mekong-delta",
+        start: 21,
+        end: 24
+    },
+    {
+        params: "/short-trip/da-nang",
+        start: 24,
+        end: 30
+    },
+    {
+        params: "/short-trip/sapa",
+        start: 30,
+        end: 36
+    },
+    {
+        params: "/short-trip/ninh-binh",
+        start: 36,
+        end: 42
+    },
 ]
 
 const ShortTripPage = () => {

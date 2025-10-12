@@ -71,7 +71,7 @@ export default function WhyTravelWithUs() {
       {/* ======= Traveler Moments (Slider hiện đại) ======= */}
       <div className="mx-auto max-w-7xl px-6 pb-16 md:px-10">
         <div className="mb-6 flex items-end justify-between gap-4">
-          <h3 className="text-2xl font-extrabold /95">Traveler Moments</h3>
+          <h3 className="text-2xl font-bold text-center m-auto">Traveler Moments</h3>
         </div>
 
         <div className="group relative rounded-3xl bg-white/8 p-4 ring-1 ring-white/15 backdrop-blur">
