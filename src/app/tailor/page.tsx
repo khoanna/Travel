@@ -47,9 +47,6 @@ export default function TailorPage() {
         try {
             const data = new FormData(form);
 
-            // Gộp checkbox destinations => chuỗi
-            const dests = ['Vietnam', 'Laos', 'Cambodia'].filter(d => data.get(d) === 'on').join(', ');
-
             const payload = {
                 destinations: String("Vietnam"),
                 timestamp: new Date().toISOString(),
@@ -117,16 +114,6 @@ export default function TailorPage() {
                     <SectionHeader index={1} title="Your Travel Plan" subtitle="Let us know your condition and wish! The more information you give, the better we tailor the itinerary to your needs." />
 
                     <div className="mt-6 grid grid-cols-1 gap-6">
-                        {/* Destinations */}
-                        <FieldLabel label="Which destinations are you interested in?" required />
-                        <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
-                            {['Vietnam', 'Laos', 'Cambodia'].map((d) => (
-                                <label key={d} className="flex items-center gap-3 rounded-xl border border-neutral-200 bg-white px-4 py-3 hover:bg-neutral-50">
-                                    <input type="checkbox" name={d} className="h-4 w-4" />
-                                    <span className="font-medium">{d}</span>
-                                </label>
-                            ))}
-                        </div>
 
                         {/* travel with + date + duration */}
                         <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
