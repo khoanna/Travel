@@ -14,7 +14,7 @@ const index = [
     }
 ]
 
-const page = () => {
+const ShortTripPage = () => {
     const path = usePathname();
     const obj = index.find(i => i.params === path)
     const listTour = tourList.slice(obj?.start, obj?.end)
@@ -33,4 +33,4 @@ const page = () => {
     )
 }
 
-export default page
+export default ShortTripPage
