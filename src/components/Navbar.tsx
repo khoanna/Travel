@@ -2,8 +2,15 @@
 
 import Link from "next/link";
 import { JSX, useEffect, useRef, useState } from "react";
-import { ChevronDown, Menu, X, SlidersHorizontal } from "lucide-react";
+import {
+  ChevronDown,
+  Menu,
+  X,
+  SlidersHorizontal,
+} from "lucide-react";
 import Image from "next/image";
+
+/* =================== NAVBAR =================== */
 
 type MenuKey = "Tours" | "Travel Guide" | null;
 
@@ -17,7 +24,7 @@ export default function Navbar() {
   // Mobile
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  /** Đóng tất cả khi click ra ngoài (desktop) */
+  // Click outside to close desktop mega
   useEffect(() => {
     function onDocDown(e: MouseEvent) {
       const targets = Object.values(menuRootRefs.current);
@@ -28,16 +35,15 @@ export default function Navbar() {
     return () => document.removeEventListener("mousedown", onDocDown);
   }, []);
 
-  /** Khóa scroll khi mở mobile */
+  // Lock body scroll when mobile open
   useEffect(() => {
-    const original = document.body.style.overflow;
-    document.body.style.overflow = mobileOpen ? "hidden" : original;
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = mobileOpen ? "hidden" : prevOverflow;
     return () => {
-      document.body.style.overflow = original;
+      document.body.style.overflow = prevOverflow;
     };
   }, [mobileOpen]);
 
-  /** Helpers delay */
   const clearCloseTimer = () => {
     if (closeTimerRef.current) {
       clearTimeout(closeTimerRef.current);
@@ -58,7 +64,7 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-neutral-200 bg-white/80 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 md:px-10">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold text-blue-600">
+        <Link href="/" className="flex items-center gap-2">
           <Image src="/Logo.png" alt="Velogo" width={120} height={40} />
         </Link>
 
@@ -67,9 +73,7 @@ export default function Navbar() {
           {desktopItems.map((item) => (
             <div
               key={item.title}
-              ref={(el) => {
-                menuRootRefs.current[item.title] = el;
-              }}
+              ref={(el) => { menuRootRefs.current[item.title] = el; }}
               className="relative"
               onMouseEnter={() => {
                 clearCloseTimer();
@@ -94,7 +98,6 @@ export default function Navbar() {
                     }`}
                   />
                 )}
-                {/* Underline animation */}
                 <span
                   className={`absolute -bottom-0.5 left-0 h-[2px] bg-blue-600 transition-all duration-300 ${
                     hoveredMenu === item.title || activeMenu === item.title ? "w-full" : "w-0"
@@ -102,7 +105,6 @@ export default function Navbar() {
                 />
               </button>
 
-              {/* Mega Panel */}
               {item.panel && (
                 <MegaPanel
                   open={activeMenu === item.title}
@@ -142,6 +144,8 @@ export default function Navbar() {
   );
 }
 
+/* =============== DESKTOP MEGA =============== */
+
 function MegaPanel({
   open,
   onEnter,
@@ -156,14 +160,11 @@ function MegaPanel({
   return (
     <div
       className={`fixed left-1/2 top-[78px] z-40 -translate-x-1/2 transition-all duration-300 ease-out ${
-        open
-          ? "pointer-events-auto translate-y-0 opacity-100"
-          : "pointer-events-none -translate-y-2 opacity-0"
+        open ? "pointer-events-auto translate-y-0 opacity-100" : "pointer-events-none -translate-y-2 opacity-0"
       }`}
       onMouseEnter={onEnter}
       onMouseLeave={onLeave}
     >
-      {/* Hover bridge */}
       <div className="absolute -top-5 left-0 h-6 w-full bg-transparent" />
       <div className="w-[900px] rounded-2xl border border-neutral-200 bg-white p-8 shadow-2xl">
         {children}
@@ -172,18 +173,11 @@ function MegaPanel({
   );
 }
 
-/* --------------------------- Helpers --------------------------- */
 function slugify(s: string) {
-  return s
-    .toLowerCase()
-    .replace(/&/g, "and")
-    .replace(/\s+/g, "-")
-    .replace(/[^a-z0-9-]/g, "");
+  return s.toLowerCase().replace(/&/g, "and").replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
 }
 const toShortTripLinks = (names: string[]) =>
   names.map((name) => ({ title: name, href: `/short-trip/${slugify(name)}` }));
-
-/* --------------------------- Panels --------------------------- */
 
 function ToursPanel() {
   const shortTrips = toShortTripLinks([
@@ -203,10 +197,7 @@ function ToursPanel() {
 
   return (
     <div className="grid grid-cols-3 gap-x-10 gap-y-4">
-      <Column
-        title="Tour Packages"
-        items={[{ href: "/tour", title: "Vietnam Tour Packages" }]}
-      />
+      <Column title="Tour Packages" items={[{ href: "/tour", title: "Vietnam Tour Packages" }]} />
       <Column title="Short Trips" items={shortTrips} twoCols />
       <Column title="Cruises" items={cruises} />
     </div>
@@ -215,8 +206,7 @@ function ToursPanel() {
 
 function GuidePanel() {
   const toLinkItems = (arr: string[]) => arr.map((t) => ({ href: "#", title: t }));
-
-  const cols: Array<{ title: string; items: { href: string; title: string }[] }> = [
+  const cols = [
     {
       title: "Essential Guide",
       items: toLinkItems([
@@ -239,7 +229,6 @@ function GuidePanel() {
       items: toLinkItems(["People", "Food", "Shopping", "Festivals", "Insights"]),
     },
   ];
-
   return (
     <div className="grid grid-cols-3 gap-x-10 gap-y-4">
       {cols.map((c) => (
@@ -248,8 +237,6 @@ function GuidePanel() {
     </div>
   );
 }
-
-/* --------------------------- Column --------------------------- */
 
 function Column({
   title,
@@ -262,16 +249,11 @@ function Column({
 }) {
   return (
     <div>
-      <h3 className="mb-3 border-l-4 border-neutral-200 pl-2 font-semibold text-neutral-700">
-        {title}
-      </h3>
+      <h3 className="mb-3 border-l-4 border-neutral-200 pl-2 font-semibold text-neutral-700">{title}</h3>
       <ul className={`${twoCols ? "grid grid-cols-2 gap-2" : "space-y-1"}`}>
-        {items.map((t, index) => (
-          <li key={index}>
-            <Link
-              href={t.href}
-              className="relative text-sm text-neutral-600 transition-colors hover:text-blue-600"
-            >
+        {items.map((t, i) => (
+          <li key={i}>
+            <Link href={t.href} className="text-sm text-neutral-600 transition-colors hover:text-blue-600">
               {t.title}
             </Link>
           </li>
@@ -281,182 +263,265 @@ function Column({
   );
 }
 
-/* ===================== Mobile Drawer ===================== */
+/* =============== MOBILE MENU (dropdown titles) =============== */
 
 function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
+  // Tất cả title mặc định đóng
   const [openKey, setOpenKey] = useState<string | null>(null);
+  useEffect(() => {
+    if (!open) setOpenKey(null);
+  }, [open]);
+
   const toggle = (k: string) => setOpenKey((prev) => (prev === k ? null : k));
 
+  // pure white background (không trong suốt trên iPhone)
+  // dùng safe-area để không dính notch
   return (
-    <div
-      className={`fixed inset-0 z-[60] bg-white transition-transform duration-500 ease-out ${
-        open ? "translate-x-0" : "-translate-x-full"
-      }`}
-      aria-hidden={!open}
-      role="dialog"
-    >
-      <div className="flex items-center justify-between bg-blue-300 px-6 py-2 text-white">
-        <Image src="/Logo.png" alt="Velogo" width={120} height={40} />
-        <button aria-label="Close menu" onClick={onClose}>
-          <X className="h-6 w-6" />
-        </button>
-      </div>
+    <>
+      {/* backdrop */}
+      <div
+        className={`fixed inset-0 z-[70] bg-black/50 transition-opacity ${
+          open ? "opacity-100" : "pointer-events-none opacity-0"
+        }`}
+        onClick={onClose}
+      />
+      {/* drawer */}
+      <div
+        className={`fixed left-0 top:0 top-0 z-[80] h-[100dvh] w-[92%] max-w-[480px] bg-white shadow-2xl transition-transform duration-300 ease-out ${
+          open ? "translate-x-0" : "-translate-x-full"
+        }`}
+        role="dialog"
+        aria-hidden={!open}
+        style={{
+          paddingTop: "env(safe-area-inset-top)",
+          paddingBottom: "env(safe-area-inset-bottom)",
+        }}
+      >
+        {/* Header solid background */}
+        <div className="flex items-center justify-between px-5 py-4 bg-white border-b border-neutral-200">
+          <Image src="/Logo.png" alt="Velogo" width={110} height={36} />
+          <button
+            aria-label="Close menu"
+            onClick={onClose}
+            className="inline-flex rounded-full p-2 text-neutral-600 hover:bg-neutral-100"
+          >
+            <X className="h-5 w-5" />
+          </button>
+        </div>
 
-      <div className="border-b bg-white border-neutral-100 p-6 text-sm text-neutral-700">
-        <p className="mb-3">
-          Share your ideas with our local expert team – we’re here to listen and help you shape a
-          meaningful journey through Indochina.
-        </p>
-        <Link
-          href="/tailor"
-          className="inline-flex rounded-full bg-blue-600 px-5 py-2 font-semibold text-white transition hover:bg-blue-700"
-          onClick={onClose}
-        >
-          Tailor My Trip
-        </Link>
-      </div>
+        {/* CTA */}
+        <div className="px-5 py-3 bg-white">
+          <Link
+            href="/tailor"
+            onClick={onClose}
+            className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-blue-600 px-4 py-3 font-semibold text-white shadow-sm hover:bg-blue-700"
+          >
+            <SlidersHorizontal className="h-4 w-4" />
+            Tailor My Trip
+          </Link>
+        </div>
 
-      <div className="h-[calc(100vh-160px)] overflow-y-auto p-2 bg-white">
-        <MobileAccordion
-          title="Tours"
-          open={openKey === "Tours"}
-          onToggle={() => toggle("Tours")}
-          items={[
-            { label: "Vietnam Tour Packages" },
-            {
-              label: "Short Trips",
-              children: [
-                "Ha Noi",
-                "Ho Chi Minh",
-                "Mekong Delta",
-                "Da Nang",
-                "Hoi An",
-                "Da Lat",
-                "Ha Giang",
-                "Hue",
-                "Mai Chau",
-                "Nha Trang",
-                "Ninh Binh",
-                "Phu Quoc",
-                "Sapa",
-                "Pu Luong",
-              ],
-            },
-            { label: "Cruises", children: ["Halong Bay Cruises", "Mekong River Cruises"] },
-          ]}
-          onClose={onClose}
-        />
+        {/* NAV SECTIONS */}
+        <div className="h-[calc(100dvh-140px)] overflow-y-auto bg-white px-3 pb-8">
+          <MobileDropdown
+            title="Tours"
+            open={openKey === "Tours"}
+            onToggle={() => toggle("Tours")}
+          >
+            <MobileSubSection label="Tour Packages">
+              <MobileLink href="/tour" onClose={onClose}>
+                Vietnam Tour Packages
+              </MobileLink>
+            </MobileSubSection>
 
-        <MobileAccordion
-          title="Ways to travel"
-          open={openKey === "Ways to travel"}
-          onToggle={() => toggle("Ways to travel")}
-          items={[
-            { label: "Travel Styles", children: ["Luxury", "Adventure", "Family", "Culture"] },
-            { label: "Destinations", children: ["Vietnam", "Cambodia", "Laos", "Indochina"] },
-            { label: "Special Themes", children: ["Honeymoon", "Photography", "Wellness", "Food"] },
-          ]}
-          onClose={onClose}
-        />
+            <MobileSubSection label="Short Trips (Cities)">
+              <div className="grid grid-cols-2 gap-2">
+                {[
+                  "Ha Noi",
+                  "Ho Chi Minh",
+                  "Mekong Delta",
+                  "Da Nang",
+                  "Hoi An",
+                  "Da Lat",
+                  "Ha Giang",
+                  "Hue",
+                  "Mai Chau",
+                  "Nha Trang",
+                  "Ninh Binh",
+                  "Phu Quoc",
+                  "Sapa",
+                  "Pu Luong",
+                ].map((city) => (
+                  <MobilePillLink key={city} href={`/short-trip/${slugify(city)}`} onClose={onClose}>
+                    {city}
+                  </MobilePillLink>
+                ))}
+              </div>
+            </MobileSubSection>
 
-        <MobileAccordion
-          title="Travel Guide"
-          open={openKey === "Travel Guide"}
-          onToggle={() => toggle("Travel Guide")}
-          items={[
-            {
-              label: "Essential Guide",
-              children: [
+            <MobileSubSection label="Cruises">
+              <MobileLink href="#" onClose={onClose}>Halong Bay Cruises</MobileLink>
+              <MobileLink href="#" onClose={onClose}>Mekong River Cruises</MobileLink>
+            </MobileSubSection>
+          </MobileDropdown>
+
+          <MobileDropdown
+            title="Travel Guide"
+            open={openKey === "Travel Guide"}
+            onToggle={() => toggle("Travel Guide")}
+          >
+            <MobileSubSection label="Essential Guide">
+              {[
                 "Language",
-                "SIM & Internet",
+                "SIM cards & internet",
                 "Health & Safety",
                 "Money & Budget",
                 "Visa guide",
                 "Best time to visit",
                 "Month by month",
                 "Scam",
-              ],
-            },
-            {
-              label: "Getting around",
-              children: ["Transportation", "Popular routes", "Must see & do", "Stay"],
-            },
-            {
-              label: "Culture & Cuisine",
-              children: ["People", "Food", "Shopping", "Festivals", "Insights"],
-            },
-          ]}
-          onClose={onClose}
-        />
+              ].map((t) => (
+                <MobileLink key={t} href="#" onClose={onClose}>{t}</MobileLink>
+              ))}
+            </MobileSubSection>
 
-        <MobileAccordion
-          title="About Us"
-          open={openKey === "About Us"}
-          onToggle={() => toggle("About Us")}
-          items={[{ label: "Who we are" }, { label: "Contact" }]}
-          onClose={onClose}
-        />
+            <MobileSubSection label="Getting around">
+              {["Transportation", "Popular routes", "Must see, visit & experience", "Stay"].map((t) => (
+                <MobileLink key={t} href="#" onClose={onClose}>{t}</MobileLink>
+              ))}
+            </MobileSubSection>
+
+            <MobileSubSection label="Culture & Cuisine">
+              {["People", "Food", "Shopping", "Festivals", "Insights"].map((t) => (
+                <MobileLink key={t} href="#" onClose={onClose}>{t}</MobileLink>
+              ))}
+            </MobileSubSection>
+          </MobileDropdown>
+
+          <MobileDropdown
+            title="Ways to travel"
+            open={openKey === "Ways to travel"}
+            onToggle={() => toggle("Ways to travel")}
+          >
+            <MobileSubSection label="Travel Styles">
+              {["Luxury", "Adventure", "Family", "Culture"].map((t) => (
+                <MobileLink key={t} href="#" onClose={onClose}>{t}</MobileLink>
+              ))}
+            </MobileSubSection>
+
+            <MobileSubSection label="Destinations">
+              {["Vietnam", "Cambodia", "Laos", "Indochina"].map((t) => (
+                <MobileLink key={t} href="#" onClose={onClose}>{t}</MobileLink>
+              ))}
+            </MobileSubSection>
+
+            <MobileSubSection label="Special Themes">
+              {["Honeymoon", "Photography", "Wellness", "Food"].map((t) => (
+                <MobileLink key={t} href="#" onClose={onClose}>{t}</MobileLink>
+              ))}
+            </MobileSubSection>
+          </MobileDropdown>
+
+          <MobileDropdown
+            title="About Us"
+            open={openKey === "About Us"}
+            onToggle={() => toggle("About Us")}
+          >
+            <MobileSubSection label="Company">
+              <MobileLink href="/about" onClose={onClose}>Who we are</MobileLink>
+              <MobileLink href="/contact" onClose={onClose}>Contact</MobileLink>
+            </MobileSubSection>
+          </MobileDropdown>
+        </div>
+      </div>
+    </>
+  );
+}
+
+/* =============== MOBILE ATOMS =============== */
+
+function MobileDropdown({
+  title,
+  open,
+  onToggle,
+  children,
+}: {
+  title: string;
+  open: boolean;
+  onToggle: () => void;
+  children: React.ReactNode;
+}) {
+  const contentId = `sect-${title.replace(/\s+/g, "-").toLowerCase()}`;
+  return (
+    <div className="mb-3 rounded-2xl border border-neutral-200 bg-white">
+      <button
+        className="flex w-full items-center justify-between px-4 py-3 text-left"
+        onClick={onToggle}
+        aria-expanded={open}
+        aria-controls={contentId}
+      >
+        <span className="text-[15px] font-semibold text-neutral-900">{title}</span>
+        <ChevronDown className={`h-4 w-4 transition-transform ${open ? "rotate-180" : ""}`} />
+      </button>
+
+      {/* Content: mặc định ẩn hoàn toàn (no peek) */}
+      <div
+        id={contentId}
+        className={`overflow-hidden transition-all duration-300 ${
+          open ? "max-h-[1200px] opacity-100 scale-100" : "max-h-0 opacity-0 scale-[0.99] pointer-events-none"
+        }`}
+        aria-hidden={!open}
+      >
+        <div className="px-4 pb-4">{open ? children : null}</div>
       </div>
     </div>
   );
 }
 
-function MobileAccordion({
-  title,
-  open,
-  onToggle,
-  items,
+function MobileSubSection({ label, children }: { label: string; children: React.ReactNode }) {
+  return (
+    <div className="mb-3">
+      <div className="mb-2 text-xs font-bold uppercase tracking-wide text-blue-500">{label}</div>
+      <div className="space-y-1">{children}</div>
+    </div>
+  );
+}
+
+function MobileLink({
+  href,
   onClose,
+  children,
 }: {
-  title: string;
-  open: boolean;
-  onToggle: () => void;
-  items: Array<{ label: string; children?: string[] }>;
+  href: string;
   onClose: () => void;
+  children: React.ReactNode;
 }) {
   return (
-    <div className="border-b border-neutral-100">
-      <button
-        className="flex w-full items-center justify-between px-4 py-4 text-base font-semibold text-neutral-800"
-        onClick={onToggle}
-        aria-expanded={open}
-      >
-        {title}
-        <ChevronDown className={`h-4 w-4 transition-transform ${open ? "rotate-180" : ""}`} />
-      </button>
-      <div
-        className={`grid overflow-hidden transition-[grid-template-rows] duration-300 ease-out ${
-          open ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
-        }`}
-      >
-        <div className="min-h-0 space-y-3 px-6 pb-5 text-sm text-neutral-700">
-          {items.map((it) =>
-            it.children ? (
-              <div key={it.label}>
-                <div className="mb-1 font-medium">{it.label}</div>
-                <ul className="ml-3 list-disc space-y-1">
-                  {it.children.map((c) => (
-                    <li key={c}>
-                      {/* build href theo short-trips slug */}
-                      <Link
-                        href={`/short-trip/${slugify(c)}`}
-                        onClick={onClose}
-                        className="hover:text-blue-600"
-                      >
-                        {c}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : (
-              <Link key={it.label} href="#" onClick={onClose} className="block hover:text-blue-600">
-                {it.label}
-              </Link>
-            )
-          )}
-        </div>
-      </div>
-    </div>
+    <Link
+      href={href}
+      onClick={onClose}
+      className="block rounded-xl px-3 py-2 text-[15px] text-neutral-800 hover:bg-neutral-50"
+    >
+      {children}
+    </Link>
+  );
+}
+function MobilePillLink({
+  href,
+  onClose,
+  children,
+}: {
+  href: string;
+  onClose: () => void;
+  children: React.ReactNode;
+}) {
+  return (
+    <Link
+      href={href}
+      onClick={onClose}
+      className="block rounded-xl border border-neutral-200 px-3 py-2 text-sm text-neutral-800 hover:border-blue-300 hover:bg-blue-50/70 hover:text-blue-700"
+    >
+      {children}
+    </Link>
   );
 }

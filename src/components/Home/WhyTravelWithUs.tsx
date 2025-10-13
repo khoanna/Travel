@@ -35,7 +35,7 @@ export default function WhyTravelWithUs() {
       </div>
 
       {/* ======= Content ======= */}
-      <div className="mx-auto flex max-w-7xl flex-col items-center px-6 py-16 text-center  md:px-10 md:py-24">
+      <div className="mx-auto flex max-w-7xl flex-col items-center px-6 py-16 text-center text-black md:px-10 md:py-24">
         <span className="inline-flex items-center rounded-full border border-blue-300/60 bg-white/10 px-4 py-1.5 text-sm font-semibold text-red-400 backdrop-blur">
           What make us different?
         </span>
