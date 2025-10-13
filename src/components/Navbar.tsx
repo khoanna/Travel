@@ -86,22 +86,19 @@ export default function Navbar() {
               }}
             >
               <button
-                className={`relative cursor-pointer flex items-center gap-1 rounded-full px-3 py-2 transition-colors ${
-                  activeMenu === item.title ? "text-blue-600" : "text-neutral-800"
-                }`}
+                className={`relative cursor-pointer flex items-center gap-1 rounded-full px-3 py-2 transition-colors ${activeMenu === item.title ? "text-blue-600" : "text-neutral-800"
+                  }`}
               >
                 {item.title}
                 {item.panel && (
                   <ChevronDown
-                    className={`h-4 w-4 transition-transform ${
-                      activeMenu === item.title ? "rotate-180" : ""
-                    }`}
+                    className={`h-4 w-4 transition-transform ${activeMenu === item.title ? "rotate-180" : ""
+                      }`}
                   />
                 )}
                 <span
-                  className={`absolute -bottom-0.5 left-0 h-[2px] bg-blue-600 transition-all duration-300 ${
-                    hoveredMenu === item.title || activeMenu === item.title ? "w-full" : "w-0"
-                  }`}
+                  className={`absolute -bottom-0.5 left-0 h-[2px] bg-blue-600 transition-all duration-300 ${hoveredMenu === item.title || activeMenu === item.title ? "w-full" : "w-0"
+                    }`}
                 />
               </button>
 
@@ -159,9 +156,8 @@ function MegaPanel({
 }) {
   return (
     <div
-      className={`fixed left-1/2 top-[78px] z-40 -translate-x-1/2 transition-all duration-300 ease-out ${
-        open ? "pointer-events-auto translate-y-0 opacity-100" : "pointer-events-none -translate-y-2 opacity-0"
-      }`}
+      className={`fixed left-1/2 top-[78px] z-40 -translate-x-1/2 transition-all duration-300 ease-out ${open ? "pointer-events-auto translate-y-0 opacity-100" : "pointer-events-none -translate-y-2 opacity-0"
+        }`}
       onMouseEnter={onEnter}
       onMouseLeave={onLeave}
     >
@@ -280,16 +276,14 @@ function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
     <>
       {/* backdrop */}
       <div
-        className={`fixed inset-0 z-[70] bg-black/50 transition-opacity ${
-          open ? "opacity-100" : "pointer-events-none opacity-0"
-        }`}
+        className={`fixed inset-0 z-[70] bg-black/50 transition-opacity ${open ? "opacity-100" : "pointer-events-none opacity-0"
+          }`}
         onClick={onClose}
       />
       {/* drawer */}
       <div
-        className={`fixed left-0 top:0 top-0 z-[80] h-[100dvh] w-[92%] max-w-[480px] bg-white shadow-2xl transition-transform duration-300 ease-out ${
-          open ? "translate-x-0" : "-translate-x-full"
-        }`}
+        className={`fixed left-0 top:0 top-0 z-[80] h-[100dvh] w-[92%] max-w-[480px] bg-white shadow-2xl transition-transform duration-300 ease-out ${open ? "translate-x-0" : "-translate-x-full"
+          }`}
         role="dialog"
         aria-hidden={!open}
         style={{
@@ -342,15 +336,8 @@ function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
                   "Mekong Delta",
                   "Da Nang",
                   "Hoi An",
-                  "Da Lat",
-                  "Ha Giang",
-                  "Hue",
-                  "Mai Chau",
-                  "Nha Trang",
                   "Ninh Binh",
-                  "Phu Quoc",
                   "Sapa",
-                  "Pu Luong",
                 ].map((city) => (
                   <MobilePillLink key={city} href={`/short-trip/${slugify(city)}`} onClose={onClose}>
                     {city}
@@ -398,40 +385,6 @@ function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
             </MobileSubSection>
           </MobileDropdown>
 
-          <MobileDropdown
-            title="Ways to travel"
-            open={openKey === "Ways to travel"}
-            onToggle={() => toggle("Ways to travel")}
-          >
-            <MobileSubSection label="Travel Styles">
-              {["Luxury", "Adventure", "Family", "Culture"].map((t) => (
-                <MobileLink key={t} href="#" onClose={onClose}>{t}</MobileLink>
-              ))}
-            </MobileSubSection>
-
-            <MobileSubSection label="Destinations">
-              {["Vietnam", "Cambodia", "Laos", "Indochina"].map((t) => (
-                <MobileLink key={t} href="#" onClose={onClose}>{t}</MobileLink>
-              ))}
-            </MobileSubSection>
-
-            <MobileSubSection label="Special Themes">
-              {["Honeymoon", "Photography", "Wellness", "Food"].map((t) => (
-                <MobileLink key={t} href="#" onClose={onClose}>{t}</MobileLink>
-              ))}
-            </MobileSubSection>
-          </MobileDropdown>
-
-          <MobileDropdown
-            title="About Us"
-            open={openKey === "About Us"}
-            onToggle={() => toggle("About Us")}
-          >
-            <MobileSubSection label="Company">
-              <MobileLink href="/about" onClose={onClose}>Who we are</MobileLink>
-              <MobileLink href="/contact" onClose={onClose}>Contact</MobileLink>
-            </MobileSubSection>
-          </MobileDropdown>
         </div>
       </div>
     </>
@@ -467,9 +420,8 @@ function MobileDropdown({
       {/* Content: mặc định ẩn hoàn toàn (no peek) */}
       <div
         id={contentId}
-        className={`overflow-hidden transition-all duration-300 ${
-          open ? "max-h-[1200px] opacity-100 scale-100" : "max-h-0 opacity-0 scale-[0.99] pointer-events-none"
-        }`}
+        className={`overflow-hidden transition-all duration-300 ${open ? "max-h-[1200px] opacity-100 scale-100" : "max-h-0 opacity-0 scale-[0.99] pointer-events-none"
+          }`}
         aria-hidden={!open}
       >
         <div className="px-4 pb-4">{open ? children : null}</div>
