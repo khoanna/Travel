@@ -2044,7 +2044,7 @@ You will trek inside the jungle to visit the One-thousand-year-old Tree and then
         title: "From Hanoi: Hoa Lu – Trang An – Cuc Phuong – Private",
         destination: ["Ninh Binh"],
         duration: 2,
-        type: ["Culture & History Tours"],
+        type: ["Culture & History Tours", "Nature Tours"],
         price: 128,
         general: "This two-day private tour offers an enchanting journey from Hanoi to the historic and natural wonders of Ninh Binh and Cuc Phuong National Park. Day 1 starts with a trip to Hoa Lu in Ninh Binh, exploring ancient temples and the captivating Trang An landscape, followed by a return to Hanoi with meals included. On Day 2, the adventure continues to Cuc Phuong National Park, Vietnam’s oldest national park, rich in biodiversity and natural beauty. After exploring its lush forests and wildlife, the tour concludes with a return to Hanoi, including Breakfast and Lunch. This itinerary promises a blend of cultural heritage and natural splendor.",
         special: [
